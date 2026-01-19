@@ -1,4 +1,4 @@
-cat > README.md <<'EOF'
+
 <p align="center">
   <img width="815" height="565"
        src="https://github.com/user-attachments/assets/174110c1-14bb-425c-a4aa-125c2432785d"
