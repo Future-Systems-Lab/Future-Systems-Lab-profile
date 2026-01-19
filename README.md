@@ -5,49 +5,104 @@
        alt="Future Systems Lab banner" />
 </p>
 
----
 
-# 🥼 Future Systems Lab
+## 🧭 Mission, Vision & Values
 
-Future Systems Lab is an applied research and development studio documenting the evolution from **real-world wellness operations** to **digital health systems**, **blockchain-enabled services**, and **decentralized healthcare prototypes**.
+### Mission
+Future Systems Lab designs and validates **end-to-end, decentralized systems** by using **healthcare—particularly mental health—as the ultimate stress test** for compliance, governance, and interoperability. By integrating applied informatics, decentralized identity, and blockchain-based consent architectures, the lab demonstrates that if secure, scalable systems can operate here, they can scale across any complex enterprise or global domain.
 
-This work reflects hands-on experience across physical operations, product development, data analytics, and secure, interoperable software design.
+### Vision
+To establish a systems benchmark where **data sovereignty, verifiable consent, and governance-aware infrastructure** are proven under maximum regulatory and operational constraint—enabling decentralized architectures that are interoperable by design and transferable across industries, markets, and jurisdictions.
 
----
+### Core Values
 
-## 🧭 What I’ve Built (End-to-End)
+**Integrity**  
+Data accuracy, reproducibility, and audit-ready transparency across the full system lifecycle
 
-### 1️⃣ Wellness Retail & Product Development
-Hands-on operation of a brick-and-mortar wellness business covering product formulation, compliance, inventory, customer education, and data tracking.
+**Scalability**  
+Architectures designed to function locally, interoperate globally, and adapt across domains without redesign
 
-### 2️⃣ Digital Services & Crypto Payments
-Transition to digital-first wellness services, early crypto payment flows, dashboards, and token-based engagement.
+**Autonomy**  
+User-controlled identity, consent, and participation embedded as foundational infrastructure primitives
 
-### 3️⃣ Decentralized Mental Wellness Prototypes
-Wallet-based identity, privacy-preserving flows, and modular therapeutic frameworks.
-
-### 4️⃣ Healthcare Software & Governance
-Consent-aware authentication, interoperability thinking, and compliance-aligned system design.
-
----
-
-## 🧩 Public Work to Review
-
-- HypnoNeuro — https://github.com/Future-Systems-Lab/HypnoNeuro  
-- EncryptHealth — https://github.com/Future-Systems-Lab/EncryptHealth  
-- Secure Health Login — https://github.com/Future-Systems-Lab/secure-health-login  
-- OpenMRS Core — https://github.com/openmrs/openmrs-core  
+**Governance**  
+Compliance-aware design integrated directly into decentralized systems to support accountability, risk mitigation, and regulatory alignment
 
 ---
 
-## 🔒 Access Note
+## 🔒 Access & Repository Policy
 
-Core architecture diagrams, system designs, and governance logic are maintained in **private repositories**.
+The architecture diagrams, Mermaid source files, and supporting documentation referenced across this organization are maintained in **private, invite-only repositories**.
 
-Access is available to **recruiters, academic reviewers, and partners upon request**.
+Public access is intentionally restricted to protect **pre-commercial IP, security design, and governance logic**.
+
+Access to these design artifacts is available to **recruiters, academic reviewers, and partners upon request**.
 
 ---
 
-**Meg Montañez-Davenport**  
-Digital Health & Web3 Architect
-EOF
+## 🔍 Verification & Reproducibility
+
+Each published architecture PNG is paired with a matching Mermaid source file to ensure reproducibility.
+
+To verify a diagram:
+1. Open the corresponding `.mmd` file from `architecture/mermaid/`
+2. Paste its contents into the Mermaid Live Editor
+3. Confirm it renders identically to the PNG
+
+This approach supports academic reproducibility, governance alignment, and documentation traceability across:
+Security • Wearables • Full Systems • Blockchain • AI / Data
+
+---
+
+## ⭐ Featured Contributions (Public / External)
+
+- **secure-health-login**  
+  Wallet-based authentication and consent patterns using EIP-712  
+  https://github.com/Future-Systems-Lab/secure-health-login
+
+- **openmrs-core**  
+  Contributions and interoperability research within open-source EHR infrastructure  
+  https://github.com/openmrs/openmrs-core
+
+- **ehrbase**  
+  Exploration and contributions related to openEHR-based clinical data platforms  
+  https://github.com/ehrbase/ehrbase
+
+- **Blockchain Analytics (Dune)**  
+  Research and analytics exploration using public Ethereum data  
+  https://dune.com/
+
+---
+
+## 🗄️ Archived & Historical Case Studies
+
+### Anonymous Therapy Prototype
+Archived portfolio artifact exploring **privacy-first wellness services**, early Web3 payment concepts, and trauma-informed UX design.
+
+Status: Retired / Archived  
+Use: Educational and portfolio reference only
+
+Repository:  
+https://github.com/Future-Systems-Lab/anonymous-therapy-prototype
+
+---
+
+### CBD Continuum Retail
+
+**Category:** Applied Retail Systems & Data Integrity  
+**Focus:** Supply Chain Transparency • Product Lifecycle • Analytics & Provenance
+
+CBD Continuum was a fully operating brick-and-mortar wellness retail business in Apex, North Carolina. It is preserved as a historical case study demonstrating:
+- end-to-end business creation and operation
+- orthomolecular formulation design
+- COA verification and transparency practices
+- traceable inventory and provenance workflows
+
+Repositories:  
+https://github.com/Future-Systems-Lab/CBD-Continuum-Retail/tree/main/CBD-Products  
+https://github.com/Future-Systems-Lab/CBD-Continuum-Retail/tree/main/CBD-Products/COAs
+
+---
+
+© 2025 Future Systems Lab  
+All rights reserved. Unlicensed. Educational and research use only.
