@@ -1,9 +1,6 @@
 <p align="center">
-  <img
-    width="815"
-    height="565"
-    src="https://github.com/user-attachments/assets/605e65ae-b059-4d26-9953-b7fe5c9289d4"
-    alt="Future Systems Lab banner"
+  <im<img width="815" height="565" alt="future-systems-lab-banner-public" src="https://github.com/user-attachments/assets/9140dc16-95f1-4dd1-ac91-54c5fc8ed154" />
+g
   />
 </p>
 
