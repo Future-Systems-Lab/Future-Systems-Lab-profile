@@ -1,9 +1,7 @@
 <p align="center">
-  <img
-    src="future-systems-lab-banner-public.png"
-    alt="Future Systems Lab banner"
-  />
+  <img src="future-systems-lab-banner-public.png" alt="Future Systems Lab banner" />
 </p>
+
 
 
 
