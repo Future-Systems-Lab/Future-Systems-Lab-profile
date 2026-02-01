@@ -1,5 +1,11 @@
+
 <p align="center">
-  <img src="future-systems-lab-banner-public.png" alt="Future Systems Lab banner" />
+  <img
+    src="https://github.com/user-attachments/assets/605e65ae-b059-4d26-9953-b7fe5c9289d4"
+    alt="Future Systems Lab banner"
+  />
+</p>
+
 </p>
 
 
