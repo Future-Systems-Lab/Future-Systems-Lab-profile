@@ -1,8 +1,7 @@
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/605e65ae-b059-4d26-9953-b7fe5c9289d4"
-    alt="Future Systems Lab banner"
+   <img width="436" height="261" alt="future-systems-lab-banner-public" src="https://github.com/user-attachments/assets/a0c4b932-e2d8-4834-826b-34f9b4446f8f" />
   />
 </p>
 
