@@ -5,86 +5,100 @@
        alt="Future Systems Lab banner" />
 </p>
 
-
 ---
 
 # 🥼 Future Systems Lab
 
+**End-to-End Systems Architecture & Validation · Informatics · Analytics · Blockchain Governance**
 
-**Digital Health · Business Analysis · Systems Design · Data Integrity**
+Future Systems Lab (FSL) is a professional systems lab and public portfolio focused on **designing, building, and validating complex systems end-to-end**.  
+The lab integrates applied work across **informatics, management information systems (MIS), business analytics, behavioral systems, and blockchain-based governance**.
 
-Future Systems Lab is a portfolio of applied work focused on **designing, analyzing, and scaling complex healthcare and wellness systems**.  
-This work reflects a combination of **clinical experience**, **formal business analysis training**, and **systems-level thinking**, with an emphasis on operational scalability, governance, and long-term sustainability.
-
-This repository serves as a **portfolio landing page and navigation hub**.  
-Each linked repository is a standalone case study or system artifact with its own detailed documentation.
+Healthcare—particularly mental and behavioral health—is used intentionally as the **hardest possible stress test**. If secure, compliant, interoperable systems can function under these constraints, they can generalize across enterprise, public-sector, and global domains.
 
 ---
 
-## 🧭 Areas of Focus
+## 🧭 Mission, Vision & Values
 
-- 🏥 Healthcare Operations & Practice Scaling  
-- 📊 Business Analysis & Systems Design  
-- 🔄 Clinical & Digital Workflow Optimization  
-- 🔐 Data Integrity, Privacy, & Governance  
-- 🧬 Decentralized & Privacy-Aware Architectures  
-- 📦 Applied Product & Platform Design  
+### Mission
+Design and validate **end-to-end, decentralized systems** using healthcare as the ultimate stress test for **compliance, governance, privacy, and interoperability**—demonstrating architectures that can scale across any complex enterprise or global context.
 
----
+### Vision
+Establish a **systems benchmark** where data sovereignty, verifiable consent, and governance-aware infrastructure are proven under maximum regulatory and operational pressure—producing architectures that are **interoperable by design** and **transferable across industries, markets, and jurisdictions**.
 
-## 📂 Selected Case Studies & Systems
-
-### 🦷 Healthcare Operations & Practice Scaling
-- **Spring Smiles – Practice Optimization & Expansion**  
-  Business analysis framework for scaling a holistic dental practice, including operational design, staffing pipelines, brand governance, and digital infrastructure.  
-  🔒 *Private / shared by request*
+### Core Values
+**Integrity** — Data accuracy, reproducibility, and audit-ready transparency across the full system lifecycle.  
+**Scalability** — Architectures that function locally, interoperate globally, and adapt across domains without redesign.  
+**Autonomy** — User-controlled identity, consent, and participation embedded as foundational infrastructure primitives.  
+**Governance** — Compliance-aware design integrated directly into system architecture to support accountability and risk mitigation.
 
 ---
 
-### 🧠 Mental Health & Wellness Systems
-- **HypnoNeuro**  
-  Decentralized mental wellness system concepts integrating clinical frameworks, data integrity, and modular architecture.  
-  👉 https://github.com/Future-Systems-Lab/HypnoNeuro
+## 🧪 Why Healthcare Is Used
+Healthcare and behavioral health combine strict regulation, ethical risk, fragmented data, interoperability failures, and human-in-the-loop decision making—with real consequences when systems fail.  
+FSL uses these conditions deliberately as a **stress test**. Methods validated here are intended to **generalize** to less constrained domains such as enterprise platforms, finance, supply chain, public sector, and global digital ecosystems.
 
-- **Anonymous Therapy Prototype** *(Archived)*  
-  Early prototype exploring privacy-preserving mental health interactions.  
-  👉 https://github.com/Future-Systems-Lab/anonymous-therapy-prototype
+Blockchain is treated as **infrastructure for governance and verification**, not ideology—used pragmatically to address trust, auditability, and coordination.
 
 ---
 
-### 🧾 Retail Systems & Data Integrity
-- **CBD Continuum Retail**  
-  Applied retail systems case study demonstrating end-to-end business creation, product provenance, COA transparency, and traceable inventory workflows.  
-  👉 https://github.com/Future-Systems-Lab/CBD-Continuum-Retail
+## 🧠 What Has Been Built (End-to-End)
+Across the lab, systems have been designed and validated end-to-end, including:
+- system and platform architectures  
+- identity, consent, and governance models  
+- data workflows and integrity controls  
+- analytics and decision-support concepts  
+- human-in-the-loop operational frameworks  
+- working prototypes and technical demonstrations  
+
+Some implementations remain private due to regulated data, security design, or pre-commercial IP. Public materials emphasize **system structure, reasoning, and validation**, not sensitive internals.
 
 ---
 
-### 🔐 Digital Health & Data Governance
-- **EncryptHealth**  
-  Privacy-first healthcare data system concepts focused on consent, integrity, and secure system design.  
-  👉 https://github.com/Future-Systems-Lab/EncryptHealth
+## 🔒 Access & Repository Policy
+Detailed architecture diagrams, Mermaid sources, and supporting documentation are maintained in **private, invite-only repositories** to protect security design, governance logic, and pre-commercial IP.  
+Access may be granted to **recruiters, academic reviewers, and partners upon request**.
 
 ---
 
-## 🧭 How to Navigate This Portfolio
-
-- This repository provides **overview and navigation only**
-- Each project repository contains:
-  - 📄 A detailed README  
-  - 🧠 System context and design rationale  
-  - 📌 Project status (active / archived)  
-- Archived projects are retained for **educational and portfolio reference**
+## 🔍 Verification & Reproducibility
+Published architecture PNGs correspond to reproducible sources (e.g., Mermaid) to support **traceability, verification, and governance alignment** across Security · Full Systems · Blockchain · AI / Data.
 
 ---
 
-## 👤 About the Author
+## ⭐ Selected Public Contributions
+- **secure-health-login** — Wallet-based authentication and consent patterns using EIP-712  
+  https://github.com/Future-Systems-Lab/secure-health-login
 
-This work reflects a dual background in **clinical healthcare delivery** and **business analysis**, focused on translating real-world operational challenges into **scalable, system-driven solutions** for healthcare and wellness environments.
+- **Open EHR interoperability research** — Public upstream contributions and analysis within open-source EHR ecosystems
+
+- **Blockchain analytics research** — Exploratory analytics using public Ethereum data to evaluate system behavior and governance signals
 
 ---
 
-© 2026 Future Systems Lab  
+## 🗄️ Archived & Historical Case Studies
+
+**Anonymous Therapy Prototype**  
+Archived portfolio artifact exploring privacy-first wellness services, early Web3 payment concepts, and trauma-informed UX design.  
+*Status:* Retired / Archived · *Use:* Educational and portfolio reference only.
+
+**CBD Continuum Retail**  
+Historical case study of an operating brick-and-mortar wellness retail business demonstrating end-to-end operations, analytics, COA transparency, and provenance workflows.  
+*Status:* Closed / Archived · *Use:* Educational and historical reference only.
+
+---
+
+## 👤 About
+Future Systems Lab reflects professional work at the intersection of **architecture, informatics, analytics, behavioral systems, and decentralized governance**.  
+The focus is **transferable, end-to-end system capability**, using healthcare as the most demanding proving ground—not a boundary.
+
+---
+
+© 2025 Future Systems Lab  
 All rights reserved.  
+Unlicensed. Educational and research use only.
+
 Unlicensed. Educational and portfolio use only.
-25 Future Systems Lab  
-All rights reserved. Unlicensed. Educational and research use only.
+
+
+  
