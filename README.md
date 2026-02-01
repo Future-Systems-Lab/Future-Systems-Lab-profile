@@ -57,7 +57,7 @@ Across the lab, systems have been designed and validated end-to-end, including:
 - human-in-the-loop operational frameworks  
 - working prototypes and technical demonstrations  
 
-Some implementations remain private due to regulated data, security design, or pre-commercial IP. Public materials emphasize **system structure, reasoning, and validation**, not sensitive internals.
+Representative work spans authentication and consent systems, interoperable health data platforms, analytics-driven governance research, enterprise-scale service redesign, and historical prototypes retained for learning reference. Some implementations remain private due to regulated data, security design, or pre-commercial IP; public materials emphasize system structure, reasoning, and validation, not sensitive internals.
 
 ---
 
