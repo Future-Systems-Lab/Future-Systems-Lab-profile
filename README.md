@@ -14,12 +14,13 @@
 
 # 🥼 Future Systems Lab
 
-**End-to-End Systems Architecture & Validation · Informatics · Analytics · Blockchain Governance**
+**End-to-End Systems Architecture, Product Development & Validation · Informatics · Analytics · Blockchain Governance**
 
 Future Systems Lab (FSL) is a professional systems lab and public portfolio focused on **designing, building, and validating complex systems end-to-end**.  
 The lab integrates applied work across **informatics, management information systems (MIS), business analytics, behavioral systems, and blockchain-based governance**.
 
-Healthcare—particularly mental and behavioral health—is used intentionally as the **hardest possible stress test**. If secure, compliant, interoperable systems can function under these constraints, they can generalize across enterprise, public-sector, and global domains.
+Healthcare—particularly mental and behavioral health—is used intentionally as the hardest possible stress test. If secure, compliant, and interoperable systems can function under these constraints, they can generalize across enterprise, public-sector, and global domains. Work includes product discovery, system architecture, prototype development, deployment validation, and iterative refinement of digital, physical, and operational systems under real-world constraints.
+
 
 ---
 
