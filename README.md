@@ -1,14 +1,8 @@
+<!-- Rights Reserved, Unlicensed -->
 
 <p align="center">
-  <img
-   <img width="100%" height="100%" alt="future-systems-lab-banner-public" src="https://github.com/user-attachments/assets/a0c4b932-e2d8-4834-826b-34f9b4446f8f" 
-  
+  <img width="100%" height="100%" alt="future-systems-lab-banner-public" src="https://github.com/user-attachments/assets/a0c4b932-e2d8-4834-826b-34f9b4446f8f" />
 </p>
-
-</p>
-
-
-
 
 ---
 
@@ -16,11 +10,7 @@
 
 **End-to-End Systems Architecture, Product Development & Validation · Informatics · Analytics · Blockchain Governance**
 
-Future Systems Lab (FSL) is a professional systems lab and public portfolio focused on **designing, building, and validating complex systems end-to-end**.  
-The lab integrates applied work across **informatics, management information systems (MIS), business analytics, behavioral systems, and blockchain-based governance**.
-
-Healthcare—particularly mental and behavioral health—is used intentionally as the hardest possible stress test. If secure, compliant, and interoperable systems can function under these constraints, they can generalize across enterprise, public-sector, and global domains. Work includes product discovery, system architecture, prototype development, deployment validation, and iterative refinement of digital, physical, and operational systems under real-world constraints.
-
+I design and deploy compliance-aware decentralized systems — using regulated mental healthcare as a proving ground for architectures that scale across complex domains. As founder of Future Systems Lab and its ecosystem, I move from concept to production: on-chain deployments, FHIR-aligned consent flows, and governance-aware infrastructure built to HIPAA standards from day one. My background spans naturopathic psychology and blockchain product architecture — I think in systems, across disciplines, at the intersection of governance and user experience.
 
 ---
 
@@ -50,35 +40,58 @@ Blockchain is treated as **infrastructure for governance and verification**, not
 
 ## 🧠 What Has Been Built (End-to-End)
 Across the lab, systems have been designed and validated end-to-end, including:
-- system and platform architectures  
-- identity, consent, and governance models  
-- data workflows and integrity controls  
-- analytics and decision-support concepts  
-- human-in-the-loop operational frameworks  
-- working prototypes and technical demonstrations  
+- System and platform architectures
+- Identity, consent, and governance models
+- Data workflows and integrity controls
+- Analytics and decision-support concepts
+- Human-in-the-loop operational frameworks
+- Working prototypes and technical demonstrations
 
 Representative work spans authentication and consent systems, interoperable health data platforms, analytics-driven governance research, enterprise-scale service redesign, and historical prototypes retained for learning reference. Some implementations remain private due to regulated data, security design, or pre-commercial IP; public materials emphasize system structure, reasoning, and validation, not sensitive internals.
+
+---
+
+## 🛠️ Technical Skills & Standards
+
+- **Blockchain / Web3:** Solidity, EVM, DID/VCs, OIDC4VP, smart contract auditing
+- **Healthcare Standards:** HL7/FHIR, HIPAA-aligned architecture, OpenMRS
+- **Security & Governance:** Cybersecurity governance, CNCF TAG-Security, Hyperledger Aries, policy-as-code
+- **Data & Analytics:** PostgreSQL, Python, Tableau, RStudio
+- **Product & Architecture:** Full-stack Web3 product strategy, decentralized identity, behavioral UX
+- **Internal Tooling:** Proprietary AI-assisted development automation *(internal)*
+
+---
+
+## ⭐ Selected Public Contributions
+
+- **[AlchemistForge](https://github.com/Future-Systems-Lab/alchemist-forge)** — Behavioral smart contract combining Jungian psychology with blockchain permanence. Deployed and verified on Sepolia.  
+  Featured: America Out Loud — Digital Mental Health Column *(link coming soon)*
+
+- **[secure-health-login](https://github.com/Future-Systems-Lab/secure-health-login)** — Wallet-based authentication and consent patterns using EIP-712 & OIDC standards
+
+- **Open EHR interoperability research** — Public upstream contributions and analysis within open-source EHR ecosystems
+
+- **Blockchain analytics research** — Exploratory analytics using public Ethereum data to evaluate system behavior and governance signals
+
+---
+
+## 📌 Portfolio Overview
+
+**Projects & Ecosystem** *(private — details available upon request)*
+
+🧠 **Mental Wellness Ecosystem** — Tokenized therapeutic engagement platform. Deployed on Sepolia.
+
+🔒 **Decentralized Health Data Platform** — Privacy-first consent architecture with DID-based patient data control.
+
+⛓️ **Claims Governance System** — Blockchain-anchored healthcare claims governance.
+
+📊 **Pharmacovigilance Analytics** — Multi-source adverse event data pipeline and visualization research.
 
 ---
 
 ## 🔒 Access & Repository Policy
 Detailed architecture diagrams, Mermaid sources, and supporting documentation are maintained in **private, invite-only repositories** to protect security design, governance logic, and pre-commercial IP.  
 Access may be granted to **recruiters, academic reviewers, and partners upon request**.
-
----
-
-## 🔍 Verification & Reproducibility
-Published architecture PNGs correspond to reproducible sources (e.g., Mermaid) to support **traceability, verification, and governance alignment** across Security · Full Systems · Blockchain · AI / Data.
-
----
-
-## ⭐ Selected Public Contributions
-- **secure-health-login** — Wallet-based authentication and consent patterns using EIP-712  
-  https://github.com/Future-Systems-Lab/secure-health-login
-
-- **Open EHR interoperability research** — Public upstream contributions and analysis within open-source EHR ecosystems
-
-- **Blockchain analytics research** — Exploratory analytics using public Ethereum data to evaluate system behavior and governance signals
 
 ---
 
@@ -94,17 +107,5 @@ Historical case study of an operating brick-and-mortar wellness retail business 
 
 ---
 
-## 👤 About
-Future Systems Lab reflects professional work at the intersection of **architecture, informatics, analytics, behavioral systems, and decentralized governance**.  
-The focus is **transferable, end-to-end system capability**, using healthcare as the most demanding proving ground—not a boundary.
-
----
-
 © 2025 Future Systems Lab  
-All rights reserved.  
-Unlicensed. Educational and research use only.
-
-Unlicensed. Educational and portfolio use only.
-
-
-  
+All rights reserved. Unlicensed. Educational and research use only.
