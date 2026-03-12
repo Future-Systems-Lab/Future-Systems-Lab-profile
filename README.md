@@ -44,9 +44,11 @@ My background spans naturopathic psychology and blockchain product architecture 
 ## 🧭 Mission, Vision & Values
 
 **Mission**
+
 Design and validate end-to-end decentralized systems using healthcare as the ultimate stress test for compliance, governance, privacy, and interoperability — demonstrating architectures that scale across any complex enterprise or global context.
 
 **Vision**
+
 Establish a systems benchmark where data sovereignty, verifiable consent, and governance-aware infrastructure are proven under maximum regulatory and operational pressure — producing architectures that are interoperable by design and transferable across industries, markets, and jurisdictions.
 
 **Core Values**
