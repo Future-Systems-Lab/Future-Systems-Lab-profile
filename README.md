@@ -8,11 +8,11 @@
 
 # 🥼 Future Systems Lab
 
-# Future Systems Lab
 
 **End-to-End Systems Architecture · Blockchain Governance · Health Informatics · Decentralized Identity**
 
-> *Where Mental Wellness Meets Metaverse*
+
+<div align="center">
 
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
@@ -26,6 +26,9 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+</div>
+
 
 
 ---
