@@ -27,7 +27,7 @@
 
 <div align="center">
 
-📄 **[View Full CV — Meg Montañez Davenport](https://github.com/Future-Systems-Lab/Future-Systems-Lab-profile/blob/main/CV_MegMontanezDavenport.pdf)**
+📄 **[View Full CV — Meg Montañez Davenport](https://future-systems-lab.github.io/Future-Systems-Lab-profile/CV_MegMontanezDavenport.html)**
 
 </div>
 
@@ -163,4 +163,4 @@ Access may be granted to recruiters, academic reviewers, and partners upon reque
 ---
 
 *© 2026 Future Systems Lab · All Rights Reserved · Unlicensed*
-*Contact: future.systems.lab@proton.me · [LinkedIn](https://www.linkedin.com/in/meg-monta%C3%B1ez-davenport-680652226/) · [CV](https://github.com/Future-Systems-Lab/Future-Systems-Lab-profile/blob/main/CV_MegMontanezDavenport.pdf)*
+*Contact: future.systems.lab@proton.me · [LinkedIn](https://www.linkedin.com/in/meg-monta%C3%B1ez-davenport-680652226/) · [CV](https://future-systems-lab.github.io/Future-Systems-Lab-profile/CV_MegMontanezDavenport.html)*
