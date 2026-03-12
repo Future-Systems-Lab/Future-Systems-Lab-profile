@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!-- Rights Reserved, Unlicensed -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Meg Montañez Davenport — CV</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0D1117;--muted:#566078;--rule:#D8DEE9;
+  --teal:#00BFFF;--teal-light:#E6F4F2;
+  --side:#0D1F35;--side-text:rgba(255,255,255,0.82);--side-muted:rgba(255,255,255,0.45);
+  --w:280px;
+}
+html{font-size:13px}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:#fff;display:flex;min-height:100vh;line-height:1.55}
+@media screen{body{max-width:1080px;margin:0 auto;box-shadow:0 4px 40px rgba(0,0,0,.12)}}
+
+/* SIDEBAR */
+aside{
+  width:var(--w);min-width:var(--w);
+  background:var(--side);
+  padding:40px 26px 40px;
+  position:relative;overflow:hidden;
+}
+aside::after{
+  content:'';position:absolute;
+  bottom:-60px;right:-60px;
+  width:220px;height:220px;border-radius:50%;
+  background:radial-gradient(circle,rgba(0,158,140,.12) 0%,transparent 70%);
+  pointer-events:none;
+}
+.s-name{
+  font-family:'Cormorant Garamond',serif;
+  font-size:1.9rem;font-weight:700;line-height:1.12;
+  color:#fff;margin-bottom:8px;
+}
+.s-title{
+  font-family:'DM Mono',monospace;
+  font-size:.6rem;font-weight:500;
+  color:var(--teal);letter-spacing:.1em;text-transform:uppercase;
+  line-height:1.7;margin-bottom:24px;
+}
+.s-rule{width:32px;height:2px;background:var(--teal);margin-bottom:24px}
+
+.s-sec{margin-bottom:22px;position:relative;z-index:1}
+.s-label{
+  font-family:'DM Mono',monospace;font-size:.58rem;font-weight:500;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--teal);
+  margin-bottom:9px;display:flex;align-items:center;gap:6px;
+}
+.s-label::after{content:'';flex:1;height:1px;background:rgba(0,158,140,.2)}
+
+.s-line{
+  font-size:.7rem;color:var(--side-text);
+  margin-bottom:4px;display:flex;gap:5px;align-items:flex-start;line-height:1.45;
+}
+.s-line::before{content:'›';color:var(--teal);flex-shrink:0;font-size:.75rem;margin-top:0px}
+
+.s-tag{
+  display:inline-block;
+  background:rgba(0,158,140,.12);border:1px solid rgba(0,158,140,.22);
+  color:rgba(255,255,255,.8);font-size:.6rem;
+  padding:2px 6px;border-radius:2px;margin:2px 2px 2px 0;
+  font-family:'DM Mono',monospace;letter-spacing:.02em;
+}
+.cert{
+  font-size:.67rem;color:var(--side-text);
+  margin-bottom:7px;padding-left:9px;
+  border-left:2px solid rgba(0,158,140,.3);line-height:1.45;
+}
+.cert strong{color:#fff;font-size:.69rem}
+
+/* MAIN */
+main{flex:1;padding:40px 42px 40px 38px;background:#fff}
+
+.m-sec{margin-bottom:26px}
+.m-head{display:flex;align-items:center;gap:9px;margin-bottom:14px}
+.m-head h2{
+  font-family:'DM Mono',monospace;font-size:.6rem;font-weight:500;
+  letter-spacing:.15em;text-transform:uppercase;color:var(--muted);
+  white-space:nowrap;
+}
+.m-head::after{content:'';flex:1;height:1px;background:var(--rule)}
+
+.summary{
+  font-size:.8rem;line-height:1.8;color:var(--ink);font-weight:300;
+  border-left:3px solid var(--teal);padding-left:14px;
+}
+
+.job{margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid var(--rule)}
+.job:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.jh{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:2px;flex-wrap:wrap}
+.jtitle{
+  font-family:'Cormorant Garamond',serif;font-size:.98rem;font-weight:700;
+  color:var(--ink);line-height:1.25;
+}
+.jdate{
+  font-family:'DM Mono',monospace;font-size:.6rem;color:var(--teal);
+  white-space:nowrap;font-weight:500;margin-top:2px;
+}
+.jorg{font-size:.7rem;color:var(--muted);font-style:italic;margin-bottom:8px}
+.job ul{list-style:none;padding:0}
+.job li{
+  font-size:.75rem;line-height:1.68;color:var(--ink);
+  padding-left:13px;position:relative;margin-bottom:3px;
+}
+.job li::before{content:'›';position:absolute;left:0;color:var(--teal);font-size:.8rem;top:1px}
+
+.pub{margin-bottom:11px;padding-left:12px;border-left:2px solid var(--teal)}
+.pub-t{font-family:'Cormorant Garamond',serif;font-size:.88rem;font-weight:700;color:var(--ink)}
+.pub-m{font-family:'DM Mono',monospace;font-size:.62rem;color:var(--muted);margin-bottom:2px}
+.pub-d{font-size:.73rem;color:var(--ink);line-height:1.55}
+
+.edu-row{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:6px;flex-wrap:wrap}
+.edu-d{font-size:.76rem;font-weight:500;color:var(--ink)}
+.edu-i{font-size:.7rem;color:var(--muted)}
+.edu-dt{font-family:'DM Mono',monospace;font-size:.61rem;color:var(--teal);white-space:nowrap;font-weight:500}
+
+.proj-box{background:#F8FAFB;border-left:3px solid var(--teal);padding:13px 16px;border-radius:0 3px 3px 0}
+.proj-box p{font-size:.76rem;line-height:1.72;color:var(--ink)}
+
+@media print{
+  body{font-size:11px}
+  aside{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .s-tag{background:#e8f5f3!important;border-color:#aaa!important;color:#333!important}
+  @page{margin:0;size:letter}
+}
+</style>
+</head>
+<body>
+<aside>
+  <div class="s-name">Meg Montañez<br>Davenport</div>
+  <div class="s-title">Blockchain Health Systems Engineer<br>Web3 Architect · Applied Researcher</div>
+  <div class="s-rule"></div>
+
+  <div class="s-sec">
+    <div class="s-label">Contact</div>
+    <div class="s-line"><a href="mailto:future.systems.lab@proton.me" style="color:inherit;text-decoration:none">future.systems.lab@proton.me</a></div>
+    <div class="s-line">NC, USA — Remote</div>
+    <div class="s-line"><a href="https://www.linkedin.com/in/meg-monta%C3%B1ez-davenport-680652226/" target="_blank" style="color:inherit;text-decoration:none">linkedin.com/in/dr-meg-montanez-davenport</a></div>
+    <div class="s-line"><a href="https://github.com/Future-Systems-Lab/Future-Systems-Lab-profile" target="_blank" style="color:inherit;text-decoration:none">github.com/Future-Systems-Lab/Future-Systems-Lab-profile</a></div>
+    <div class="s-line"><a href="https://www.americaoutloud.news/author/meg-montanez-davenport/" target="_blank" style="color:inherit;text-decoration:none">americaoutloud.news/author/<br>meg-montanez-davenport</a></div>
+  </div>
+
+  <div class="s-sec">
+    <div class="s-label">Blockchain & Web3</div>
+    <span class="s-tag">Solidity</span><span class="s-tag">Hardhat</span><span class="s-tag">Remix IDE</span>
+    <span class="s-tag">ERC-20/721</span><span class="s-tag">wagmi</span><span class="s-tag">viem</span>
+    <span class="s-tag">MetaMask</span><span class="s-tag">DIDs / SSI</span>
+    <span class="s-tag">IPFS</span><span class="s-tag">Filecoin</span><span class="s-tag">Merkle DAGs</span>
+    <span class="s-tag">ZK Proofs</span><span class="s-tag">libp2p</span><span class="s-tag">Blockscout</span>
+  </div>
+
+  <div class="s-sec">
+    <div class="s-label">Engineering & Data</div>
+    <span class="s-tag">Next.js</span><span class="s-tag">PostgreSQL 17</span><span class="s-tag">Python</span>
+    <span class="s-tag">Flask</span><span class="s-tag">Streamlit</span><span class="s-tag">systemd</span>
+    <span class="s-tag">REST APIs</span><span class="s-tag">Vercel</span><span class="s-tag">SSH Ed25519</span>
+    <span class="s-tag">Git CI/CD</span><span class="s-tag">Agile/Scrum</span><span class="s-tag">Tableau</span>
+  </div>
+
+  <div class="s-sec">
+    <div class="s-label">Healthcare & Informatics</div>
+    <span class="s-tag">HL7</span><span class="s-tag">FHIR</span><span class="s-tag">OMOP</span>
+    <span class="s-tag">HIPAA</span><span class="s-tag">EHR Mapping</span>
+    <span class="s-tag">Clinical Data Models</span><span class="s-tag">Orthomolecular</span>
+  </div>
+
+  <div class="s-sec">
+    <div class="s-label">Organizations</div>
+    <div class="s-line">INCOSE — Systems Engineering</div>
+    <div class="s-line">AMIA — Medical Informatics</div>
+    <div class="s-line">HIMSS — Health IT</div>
+    <div class="s-line">ISC² — Cybersecurity</div>
+    <div class="s-line">PDMA — Product Management</div>
+    <div class="s-line">ISOM — Orthomolecular Medicine</div>
+    <div class="s-line">NANP — Nutrition Professionals</div>
+  </div>
+
+  <div class="s-sec">
+    <div class="s-label">Certifications</div>
+    <div class="cert"><strong>Certified Blockchain Healthcare Professional (CBHP) — Blockchain Council</strong><span style="white-space:nowrap"> · Apr 2025</span></div>
+    <div class="cert"><strong>Certified Smart Contract Auditor</strong>Blockchain Council · Jan 2026</div>
+    <div class="cert"><strong>Health Informatics — Johns Hopkins</strong>May 2025</div>
+    <div class="cert"><strong>Web3 & Blockchain — INSEAD</strong>Apr 2025</div>
+    <div class="cert"><strong>CISA — Packt</strong>Aug 2025</div>
+    <div class="cert"><strong>SSI Master — DizmeID</strong>Mar 2025</div>
+    <div class="cert"><strong>Medical Neuroscience — Duke SOM</strong>Apr 2025</div>
+    <div class="cert"><strong>Health Informatics on FHIR — Georgia Tech</strong>Mar 2025</div>
+    <div class="cert"><strong>Business Analyst — IBM</strong>Jun 2025</div>
+    <div class="cert"><strong>Data Analytics · UX Design · PM — Google</strong>Jun 2025</div>
+    <div class="cert"><strong>IPFS · Filecoin · libp2p · Merkle DAGs</strong>IPFS / Filecoin Foundation / ProtoSchool · 2025</div>
+  </div>
+</aside>
+
+<main>
+  <div class="m-sec">
+    <div class="m-head"><h2>Summary</h2></div>
+    <p class="summary">I design and deploy compliance-aware decentralized systems — using regulated mental healthcare as a proving ground for architectures that scale across complex domains. As founder of Future Systems Lab, I move from concept to production: on-chain deployments, FHIR-aligned consent flows, and governance-aware infrastructure built to HIPAA standards from day one. My background spans naturopathic psychology and blockchain product architecture — I think in systems, across disciplines, at the intersection of governance and user experience. Five Ethereum smart contracts deployed and verified on Sepolia — every FSL system is in production. Pursuing a Doctor of Engineering to formalize applied research methodology and advance systems leadership at the intersection of blockchain, AI, and decentralized governance.</p>
+  </div>
+
+  <div class="m-sec">
+    <div class="m-head"><h2>Engineering Experience</h2></div>
+
+    <div class="job">
+      <div class="jh"><div class="jtitle">Lead Engineer — ClaimChain Insurance Claims Governance</div><div class="jdate">2026 — Present</div></div>
+      <div class="jorg">Sepolia: <a href="https://eth-sepolia.blockscout.com/address/0xf32979200768e8726d5EC5E5AB0CA7407d64A94e" target="_blank" style="color:#009E8C">0xf32979200768e8726d5EC5E5AB0CA7407d64A94e</a></div>
+      <ul>
+        <li>Engineered a full PostgreSQL claims lifecycle schema spanning users, patients, providers, visits, claims, documents, audit logs, insurers, eligibility, authorization, and compliance log tables.</li>
+        <li>Built Phase 3 SMS-based approval-gated automation with case-insensitive approve/deny/defer, 4-hour timeout, and max-defer logic — deployed to production VPS via systemd.</li>
+        <li>Architected ClaimChain as a standalone blockchain governance layer for insurance eligibility verification — integrates with any payment pipeline (Fiat → Stripe → Crypto → MetaMask) and deployable independently of any single platform.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="jh"><div class="jtitle">Open-Source Case Study Lead — AlchemistForge / mental-health-on-chain</div><div class="jdate">2026 — Present</div></div>
+      <ul>
+        <li>Scaffolded mental-health-on-chain as a five-entry public smart contract awareness series; deployed 24/7 campaign orchestration across Dev.to, Twitter, Discord, GitHub, and Telegram.</li>
+        <li>Recorded on-chain case study as Participant #1 with Transmuted and Celebrated events confirmed at wallet <a href="https://eth-sepolia.blockscout.com/address/0xf22cbF25deEeA36FFF828BAf73CCb049345eF248" target="_blank" style="color:#009E8C">0xf22cbF25deEeA36FFF828BAf73CCb049345eF248</a>.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="jh"><div class="jtitle">Founder & Systems Architect — Future Systems Lab</div><div class="jdate">2023 — Present</div></div>
+      <div class="jorg"><a href="https://github.com/Future-Systems-Lab/Future-Systems-Lab-profile" target="_blank" style="color:#009E8C">github.com/Future-Systems-Lab/Future-Systems-Lab-profile</a></div>
+      <ul>
+        <li>Deployed and verified five Ethereum smart contracts on Sepolia testnet: <a href="https://eth-sepolia.blockscout.com/address/0x411426f8E735F7940B20491609F08817A805b198" target="_blank" style="color:#009E8C">HypnoNeuroToken</a>, <a href="https://eth-sepolia.blockscout.com/address/0xbDaeb1d05E02D2751Ad07121510b5f0C436E2CdC" target="_blank" style="color:#009E8C">EncryptHealthToken</a>, <a href="https://eth-sepolia.blockscout.com/address/0xCb9EcB00574DB29976c7C54045d443666D5C7771" target="_blank" style="color:#009E8C">MindMasteryNFT</a>, <a href="https://eth-sepolia.blockscout.com/address/0xf32979200768e8726d5EC5E5AB0CA7407d64A94e" target="_blank" style="color:#009E8C">ClaimChain</a>, and <a href="https://eth-sepolia.blockscout.com/address/0xE092336F8f5082e57CcBb341A110C20ad186A324" target="_blank" style="color:#009E8C">AlchemistForge</a>.</li>
+        <li>Architected a 12-agent Master Command Center spanning Audit, Smart Contract, Backend Build, Frontend/UI, Compliance, Security, Testing/QA, and Research agents with full dropdown panel orchestration.</li>
+        <li>Deployed production VPS automation stack (clawdbot) on OpenClaw VPS: Flask approval server, Telegram bot, Streamlit analytics dashboard, and two systemd services running continuously.</li>
+        <li>Engineered EncryptAI — a 19-step canonical monorepo (frontend/, backend/, labs/, contracts/, game/) with MetaMask authentication via wagmi 2.16.9, PostgreSQL 17, and blockchain writes via viem — <a href="https://github.com/Future-Systems-Lab/secure-health-login" target="_blank" style="color:#009E8C">Step 2 live on Vercel</a>.</li>
+        <li>Established SSH-authenticated signed commits, GitHub org governance, and Rights Reserved licensing policy across all FSL repositories.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="jh"><div class="jtitle">Healthcare Data Architect — HypnoNeuro Mental Wellness Platform</div><div class="jdate">2023 — Present</div></div>
+      <div class="jorg" style="font-style:italic">HypnoNeuro · EncryptHealth · ClaimChain · <a href="https://github.com/Future-Systems-Lab/NeuroBalance-Watch" target="_blank" style="color:#009E8C">NeuroBalance Watch</a> — modular systems engineered to operate independently or as an integrated ecosystem</div>
+      <ul>
+        <li>Architected a 27-game browser-based therapeutic wellness platform spanning three progressive treatment levels — system design, clinical logic mapping, and token-governed session architecture fully planned; games in active development using React, Web Audio API, and Solidity-governed session tracking.</li>
+        <li>Designed on-chain incentive model linking session completion to token rewards and NFT-based discount tiers, creating verifiable therapeutic progression evidence on-chain.</li>
+        <li>Building HIPAA-compliant backend with DID authentication, encrypted communications, and MetaMask wallet-based access as the primary clinical entry point.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="jh"><div class="jtitle">Founder & Product Developer — SunCodes Holistic Health</div><div class="jdate">2018 — 2024</div></div>
+      <ul>
+        <li>Developed a seed-to-shelf CBD product line in an unregulated market — managed full product lifecycle including formulation, third-party COA testing, GMP documentation, labeling, barcode integration, and retail packaging compliance.</li>
+        <li>Led full renovation and interior redesign of a historic downtown smoke shop, converting it into a branded therapeutic wellness center — managed contractor relationships, spatial design, and retail buildout from concept to opening.</li>
+        <li>Founded and operated a clinical wellness platform applying naturopathic psychology and orthomolecular frameworks to mental health and trauma recovery, with digital compliance tracking and personalized client protocol systems.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="m-sec">
+    <div class="m-head"><h2>Open Source Contributions</h2></div>
+    <div class="job">
+      <div class="jh"><div class="jtitle">Open Source Contributor — Healthcare & Blockchain</div><div class="jdate">Jul 2025 — Present</div></div>
+      <div class="jorg">Self-Directed / Independent</div>
+      <ul>
+        <li><strong>Ethereum / EIPs</strong> — formatting fix in core standards repository</li>
+        <li><strong>OpenZeppelin Contracts</strong> — ReentrancyGuard documentation clarification</li>
+        <li><strong>Uniswap v3-core</strong> — invariant test note for pool mathematics</li>
+        <li><strong>Hyperledger Explorer</strong> — build and runtime notes</li>
+        <li><strong>OpenMRS</strong> — FHIR2 quickstart pointer for healthcare interoperability</li>
+        <li><strong>BigchainDB</strong> — Python quickstart documentation for new developers</li>
+        <li><strong>Balancer v2</strong> — pool math reference documentation</li>
+        <li><strong>Presentation-Exchange</strong> — OIDC4VP consent example for verifiable credential workflows</li>
+      </ul>
+      <div style="margin-top:10px;font-size:.72rem;color:var(--muted);font-style:italic;margin-bottom:6px">Applied projects:</div>
+      <ul>
+        <li><strong><a href="https://github.com/Future-Systems-Lab/secure-health-login" target="_blank" style="color:#009E8C">Secure Health Login</a></strong> — practitioner-facing smart wallet authentication app implementing EIP-712, DID/OIDC, and HIPAA-aligned access control — live on Vercel</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="m-sec">
+    <div class="m-head"><h2>Publications</h2></div>
+    <div class="pub">
+      <div class="pub-t">"Ending the Insurance Verification Nightmare"</div>
+      <div class="pub-m">America Out Loud · March 1, 2026 · <a href="https://www.americaoutloud.news/ending-the-insurance-verification-nightmare/" target="_blank" style="color:#009E8C">americaoutloud.news</a></div>
+      <div class="pub-d">Argued that blockchain governance resolves systemic insurance fraud — duplicate claims, identity misuse, phantom billing — through decentralized eligibility verification and immutable audit trails.</div>
+    </div>
+    <div class="pub">
+      <div class="pub-t">"Blockchain Consent Transforms Patient Data Control"</div>
+      <div class="pub-m">America Out Loud · March 2026 · <a href="https://www.americaoutloud.news/blockchain-consent-transforms-patient-data-control/" target="_blank" style="color:#009E8C">americaoutloud.news</a></div>
+      <div class="pub-d">Examined how blockchain-based consent architecture returns data sovereignty to patients — arguing that smart contract-governed consent flows resolve the systemic failures of centralized health data management and establish a verifiable, patient-controlled alternative.</div>
+    </div>
+  </div>
+
+  <div class="m-sec">
+    <div class="m-head"><h2>Education</h2></div>
+    <div class="edu-row"><div><div class="edu-d">BS, Management Information Systems</div><div class="edu-i">CSU Global — Regionally Accredited (HLC)</div></div><div class="edu-dt">In Progress</div></div>
+    <div class="edu-row"><div><div class="edu-d">Doctor of Naturopathic Psychology</div><div class="edu-i">Kingdom College of Natural Health</div></div><div class="edu-dt">Conferred</div></div>
+  </div>
+
+  <div class="m-sec">
+    <div class="m-head"><h2>Proposed Applied Research</h2></div>
+    <div class="proj-box">
+      <p><strong>Decentralized Healthcare Claims Governance:</strong> Engineering a privacy-first, blockchain-secured insurance claims lifecycle system for health providers — advancing ClaimChain from testnet deployment into a rigorous applied research framework examining smart contract-governed eligibility verification, HIPAA compliance engineering at the contract layer, and interoperability with HL7/FHIR standards at scale. &nbsp;|&nbsp; <span style="font-family:monospace;font-size:.75em"><a href="https://eth-sepolia.blockscout.com/address/0xf32979200768e8726d5EC5E5AB0CA7407d64A94e" target="_blank" style="color:#009E8C">ClaimChain on Blockscout</a></span></p>
+    </div>
+  </div>
+</main>
+</body>
+</html>
