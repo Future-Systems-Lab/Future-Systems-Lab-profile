@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FSL Command Center</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600;700&display=swap');
+  :root {
+    --aqua: #00FFD4;
+    --mint: #7FFFD4;
+    --blue: #1E90FF;
+    --bg: #0A0A0F;
+    --card: #111118;
+    --border: #00FFD411;
+    --dim: #ffffff22;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: #fff; font-family: 'Inter', sans-serif; min-height: 100vh; }
+  header { padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+  header h1 { color: var(--aqua); font-family: 'Space Mono', monospace; font-size: 1.1rem; letter-spacing: 0.1em; }
+  header .time { color: var(--dim); font-family: 'Space Mono', monospace; font-size: 0.8rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.25rem; padding: 2rem; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; transition: border-color 0.2s; }
+  .card:hover { border-color: var(--aqua); }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; }
+  .card-title { font-size: 1rem; font-weight: 700; color: var(--aqua); }
+  .card-sub { font-size: 0.75rem; color: var(--mint); opacity: 0.7; margin-top: 0.2rem; }
+  .badge { font-size: 0.7rem; padding: 0.2rem 0.6rem; border-radius: 20px; font-family: 'Space Mono', monospace; white-space: nowrap; }
+  .badge.live { background: #00FFD420; color: var(--aqua); border: 1px solid var(--aqua); }
+  .badge.pending { background: #FFD70020; color: #FFD700; border: 1px solid #FFD700; }
+  .badge.building { background: #1E90FF20; color: var(--blue); border: 1px solid var(--blue); }
+  .item { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 0; border-bottom: 1px solid var(--border); font-size: 0.82rem; }
+  .item:last-child { border-bottom: none; }
+  .item-label { color: #ffffff88; }
+  .item-value { color: #fff; font-family: 'Space Mono', monospace; font-size: 0.75rem; }
+  .item-value a { color: var(--aqua); text-decoration: none; }
+  .item-value a:hover { text-decoration: underline; }
+  .section-title { color: var(--dim); font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; margin: 1rem 0 0.5rem; font-family: 'Space Mono', monospace; }
+  .agent-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.4rem; margin-top: 0.5rem; }
+  .agent-chip { background: #00FFD408; border: 1px solid #00FFD422; border-radius: 6px; padding: 0.3rem 0.5rem; font-size: 0.65rem; color: var(--mint); text-align: center; font-family: 'Space Mono', monospace; }
+  .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 0.4rem; }
+  .dot.green { background: var(--aqua); box-shadow: 0 0 6px var(--aqua); }
+  .dot.yellow { background: #FFD700; }
+  .dot.grey { background: #ffffff33; }
+  .full-width { grid-column: 1 / -1; }
+  .stat-row { display: flex; gap: 1rem; margin-top: 0.75rem; }
+  .stat { flex: 1; background: #00FFD408; border: 1px solid var(--border); border-radius: 10px; padding: 0.75rem; text-align: center; }
+  .stat-num { font-size: 1.4rem; font-weight: 700; color: var(--aqua); font-family: 'Space Mono', monospace; }
+  .stat-label { font-size: 0.65rem; color: #ffffff55; margin-top: 0.2rem; text-transform: uppercase; letter-spacing: 0.1em; }
+  footer { text-align: center; padding: 1.5rem; color: var(--dim); font-size: 0.75rem; font-family: 'Space Mono', monospace; border-top: 1px solid var(--border); }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>⚡ FSL COMMAND CENTER</h1>
+    <div style="color: var(--mint); font-size:0.75rem; margin-top:0.2rem;">Where Mental Wellness Meets Metaverse</div>
+  </div>
+  <div class="time" id="clock"></div>
+</header>
+
+<div class="grid">
+
+  <!-- HypnoNeuro -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">🧠 HypnoNeuro</div>
+        <div class="card-sub">27 Browser Games · L1/L2/L3 · MetaMask Gated</div>
+      </div>
+      <span class="badge live">LIVE</span>
+    </div>
+    <div class="item"><span class="item-label">Frontend</span><span class="item-value"><a href="https://hypnoneuro-frontend.vercel.app" target="_blank">hypnoneuro-frontend.vercel.app</a></span></div>
+    <div class="item"><span class="item-label">HNT Token</span><span class="item-value"><a href="https://sepolia.blockscout.com/address/0x411426f8E735F7940B20491609F08817A805b198" target="_blank">0x4114...b198</a></span></div>
+    <div class="item"><span class="item-label">MindMastery NFT</span><span class="item-value"><a href="https://sepolia.blockscout.com/address/0xCb9EcB00574DB29976c7C54045d443666D5C7771" target="_blank">0xCb9E...7771</a></span></div>
+    <div class="item"><span class="item-label">Games</span><span class="item-value">9 L1 · 9 L2 · 9 L3</span></div>
+    <div class="item"><span class="item-label">Wallet Gate</span><span class="item-value"><span class="dot green"></span>Active</span></div>
+  </div>
+
+  <!-- EncryptHealth -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">🔐 EncryptHealth</div>
+        <div class="card-sub">Sovereign Health Data · EHT Token · Sepolia</div>
+      </div>
+      <span class="badge building">BUILDING</span>
+    </div>
+    <div class="item"><span class="item-label">MetaMask Login</span><span class="item-value"><a href="https://secure-health-login-dfk6unk2d-megs-projects-95a11e5b.vercel.app/" target="_blank">secure-health-login.vercel.app</a></span></div>
+    <div class="item"><span class="item-label">EHT Token</span><span class="item-value"><a href="https://sepolia.blockscout.com/address/0xbDaeb1d05E02D2751Ad07121510b5f0C436E2CdC" target="_blank">0xbDae...2CdC</a></span></div>
+    <div class="item"><span class="item-label">Backend</span><span class="item-value"><span class="dot green"></span>PostgreSQL Live</span></div>
+    <div class="item"><span class="item-label">Frontend Deploy</span><span class="item-value"><span class="dot yellow"></span>Pending</span></div>
+    <div class="item"><span class="item-label">Build Step</span><span class="item-value">Step 2 of 19 complete</span></div>
+  </div>
+
+  <!-- ClaimChain -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">⛓ ClaimChain</div>
+        <div class="card-sub">Sovereign Health Governance · Phase 3</div>
+      </div>
+      <span class="badge live">LIVE</span>
+    </div>
+    <div class="item"><span class="item-label">Sepolia Contract</span><span class="item-value"><a href="https://sepolia.blockscout.com/address/0xf32979200768e8726d5EC5E5AB0CA7407d64A94e" target="_blank">0xf329...4A94e</a></span></div>
+    <div class="item"><span class="item-label">Branch</span><span class="item-value">wip/claimchain-phase3-expansion</span></div>
+    <div class="item"><span class="item-label">Backend</span><span class="item-value"><span class="dot green"></span>PostgreSQL + Node API</span></div>
+    <div class="item"><span class="item-label">Session Billing</span><span class="item-value"><span class="dot green"></span>On-chain</span></div>
+    <div class="item"><span class="item-label">Approval Gate</span><span class="item-value"><span class="dot green"></span>Telegram Active</span></div>
+  </div>
+
+  <!-- NeuroBalance Watch -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">⌚ NeuroBalance Watch</div>
+        <div class="card-sub">Wearable Dashboard · Plant Ally · Sovereign Consent</div>
+      </div>
+      <span class="badge building">BUILDING</span>
+    </div>
+    <div class="item"><span class="item-label">Dashboard</span><span class="item-value"><span class="dot yellow"></span>Prototype</span></div>
+    <div class="item"><span class="item-label">Neurotransmitter Feed</span><span class="item-value"><span class="dot green"></span>Active</span></div>
+    <div class="item"><span class="item-label">Plant Ally Recs</span><span class="item-value"><span class="dot green"></span>Active</span></div>
+    <div class="item"><span class="item-label">On-chain Consent</span><span class="item-value"><span class="dot green"></span>Toggle Active</span></div>
+    <div class="item"><span class="item-label">Vercel Deploy</span><span class="item-value"><span class="dot yellow"></span>Pending</span></div>
+  </div>
+
+  <!-- AlchemistForge -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">🔮 AlchemistForge</div>
+        <div class="card-sub">On-chain Shadow Work · Case Study #1</div>
+      </div>
+      <span class="badge live">LIVE</span>
+    </div>
+    <div class="item"><span class="item-label">Contract</span><span class="item-value"><a href="https://sepolia.blockscout.com/address/0xE092336F8f5082e57CcBb341A110C20ad186A324" target="_blank">0xE092...A324</a></span></div>
+    <div class="item"><span class="item-label">Participant #1</span><span class="item-value">Dr. Meg — Transmuted ✓</span></div>
+    <div class="item"><span class="item-label">Shadow Aspect</span><span class="item-value">web2 → web3 light</span></div>
+    <div class="item"><span class="item-label">Events</span><span class="item-value">Transmuted + Celebrated ✓</span></div>
+  </div>
+
+  <!-- Infrastructure -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">🖥 Infrastructure</div>
+        <div class="card-sub">VPS · PostgreSQL · Sepolia · Vercel</div>
+      </div>
+      <span class="badge live">LIVE</span>
+    </div>
+    <div class="item"><span class="item-label">VPS</span><span class="item-value">74.208.202.239 (OpenClaw)</span></div>
+    <div class="item"><span class="item-label">Deployer Wallet</span><span class="item-value"><a href="https://sepolia.blockscout.com/address/0xf22cbF25deEeA36FFF828BAf73CCb049345eF248" target="_blank">0xf22c...F248</a></span></div>
+    <div class="item"><span class="item-label">RPC</span><span class="item-value">Infura Sepolia</span></div>
+    <div class="item"><span class="item-label">Campaign Service</span><span class="item-value"><span class="dot green"></span>Running</span></div>
+    <div class="item"><span class="item-label">Daily Summary</span><span class="item-value"><span class="dot green"></span>3:33 AM UTC</span></div>
+  </div>
+
+  <!-- Agent Council — full width -->
+  <div class="card full-width">
+    <div class="card-header">
+      <div>
+        <div class="card-title">🤖 FSL Agent Council — 12 Agents</div>
+        <div class="card-sub">Auto-execute · Chained outputs · Telegram logging</div>
+      </div>
+      <span class="badge live">AUTO-EXECUTE</span>
+    </div>
+    <div class="agent-grid">
+      <div class="agent-chip"><span class="dot green"></span>System Architect</div>
+      <div class="agent-chip"><span class="dot green"></span>Audit</div>
+      <div class="agent-chip"><span class="dot green"></span>Backend Build</div>
+      <div class="agent-chip"><span class="dot green"></span>Frontend/UI</div>
+      <div class="agent-chip"><span class="dot green"></span>Smart Contract</div>
+      <div class="agent-chip"><span class="dot green"></span>Database</div>
+      <div class="agent-chip"><span class="dot green"></span>Compliance</div>
+      <div class="agent-chip"><span class="dot green"></span>Security</div>
+      <div class="agent-chip"><span class="dot green"></span>Testing/QA</div>
+      <div class="agent-chip"><span class="dot green"></span>Documentation</div>
+      <div class="agent-chip"><span class="dot green"></span>Approval Gate</div>
+      <div class="agent-chip"><span class="dot green"></span>Backup/Sync</div>
+    </div>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num">27</div><div class="stat-label">Games Built</div></div>
+      <div class="stat"><div class="stat-num">5</div><div class="stat-label">Contracts Live</div></div>
+      <div class="stat"><div class="stat-num">8</div><div class="stat-label">Open Source PRs</div></div>
+      <div class="stat"><div class="stat-num">4</div><div class="stat-label">Ecosystems</div></div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  FSL · Future Systems Lab · Where Mental Wellness Meets Metaverse · Rights Reserved, Unlicensed
+</footer>
+
+<script>
+  function updateClock() {
+    const now = new Date()
+    document.getElementById('clock').textContent = now.toUTCString().replace('GMT', 'UTC')
+  }
+  updateClock()
+  setInterval(updateClock, 1000)
+</script>
+</body>
+</html>
