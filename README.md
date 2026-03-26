@@ -119,7 +119,22 @@ Wearable consent and neuro-state tracking prototype with on-chain permission tog
 
 **[NeuroBalance Watch](https://github.com/Future-Systems-Lab/NeuroBalance-Watch)** — Wearable neuro-state and consent prototype with on-chain permission architecture.
 
-**Open-source contributions** — BigchainDB, Ethereum EIPs, Uniswap v3-core, OpenMRS (FHIR2), Hyperledger Explorer, Balancer v2, OpenZeppelin Contracts, Presentation-Exchange (OIDC4VP)
+### 🔀 Open-Source Contribution Portfolio
+
+Eight active contributions to production blockchain, healthcare, and identity standards infrastructure — each directly connected to FSL's technical architecture.
+
+| Repo | PR | Title | Status | FSL Connection |
+|---|---|---|---|---|
+| [ethereum/EIPs](https://github.com/ethereum/EIPs/pull/11409) | [#11409](https://github.com/ethereum/EIPs/pull/11409) | Update README: Fix formatting in EIP document structure | 🟡 Open | HNT token standard — FSLToken and HypnoNeuroNFT follow EIP-20/721 standards governed by this repo |
+| [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6414) | [#6414](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6414) | Clarify ReentrancyGuard documentation | 🟡 Open | FSLToken, EncryptHealthVault, and ClaimChainDAO inherit from OpenZeppelin's audited base contracts |
+| [Uniswap/v3-core](https://github.com/Uniswap/v3-core/pull/1077) | [#1077](https://github.com/Uniswap/v3-core/pull/1077) | Add invariant test note to pool math docs | 🟡 Open | Reference architecture for future HNT/ETH liquidity pool design |
+| [openmrs/openmrs-module-fhir2](https://github.com/openmrs/openmrs-module-fhir2/pull/594) | [#594](https://github.com/openmrs/openmrs-module-fhir2/pull/594) | Add FHIR2 quickstart pointer for contributors | ✅ Closed | EncryptHealth FHIR R4 export (`GET /api/export/:wallet`) — same module stack |
+| [bigchaindb/bigchaindb](https://github.com/bigchaindb/bigchaindb/pull/2763) | [#2763](https://github.com/bigchaindb/bigchaindb/pull/2763) | Add Python quickstart documentation | 🟡 Open | Immutable data patterns — informed NeuroBalance biosensor anchoring architecture |
+| [balancer/balancer-v2-monorepo](https://github.com/balancer/balancer-v2-monorepo/pull/2648) | [#2648](https://github.com/balancer/balancer-v2-monorepo/pull/2648) | Add pool math reference documentation | 🟡 Open | HNT token liquidity pool reference; AlchemistForge bridging mechanism |
+| [decentralized-identity/presentation-exchange](https://github.com/decentralized-identity/presentation-exchange/pull/486) | [#486](https://github.com/decentralized-identity/presentation-exchange/pull/486) | Add OIDC4VP consent example | 🟡 Open | ClaimChain decentralized identity and OIDC4VP provider credentialing flows |
+| [hyperledger/fabric](https://github.com/hyperledger/fabric/pull/5419) | [#5419](https://github.com/hyperledger/fabric/pull/5419) | Add build and runtime environment notes | 🟡 Open | Enterprise permissioned ledger patterns for FSL provider credentialing and audit trail architecture |
+
+**Pattern:** All eight contributions target documentation, onboarding, and interoperability standards — reflecting FSL's architecture philosophy: clarity, composability, and compliance by design.
 
 ---
 
