@@ -113,7 +113,7 @@ Wearable consent and neuro-state tracking prototype with on-chain permission tog
 
 ## ⭐ Selected Public Contributions
 
-**[AlchemistForge](https://eth-sepolia.blockscout.com/address/0xE092336F8f5082e57CcBb341A110C20ad686A324)** — Behavioral smart contract combining Jungian psychology with blockchain permanence. Deployed and verified on Sepolia. Featured: [America Out Loud](https://www.americaoutloud.news/author/meg-montanez-davenport/)
+**[AlchemistForge](https://eth-sepolia.blockscout.com/address/0xE092336F8f5082e57CcBb341A110C20ad686A324)** — Behavioral smart contract combining Jungian psychology with blockchain permanence. Deployed and verified on Sepolia. Featured: [America Out Loud](https://www.americaoutloud.news/reprogram-your-limiting-beliefs-on-the-blockchain-while-learning-web3/)
 
 **[secure-health-login](https://github.com/Future-Systems-Lab/secure-health-login)** — Wallet-based authentication and consent patterns using EIP-712 & OIDC standards. Live on Vercel.
 
@@ -156,6 +156,7 @@ Eight active contributions to production blockchain, healthcare, and identity st
 
 ## 📰 Published Research & Thought Leadership
 
+- [Reprogram Your Limiting Beliefs on the Blockchain While Learning Web3](https://www.americaoutloud.news/reprogram-your-limiting-beliefs-on-the-blockchain-while-learning-web3/) — *America Out Loud, April 2026*
 - [Ending the Insurance Verification Nightmare](https://www.americaoutloud.news/author/meg-montanez-davenport/) — *America Out Loud, March 2026*
 - [When Records Vanish! Lessons from Epstein's Files](https://www.americaoutloud.news/author/meg-montanez-davenport/) — *America Out Loud, March 2026*
 
