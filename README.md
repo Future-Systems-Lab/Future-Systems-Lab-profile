@@ -82,7 +82,7 @@ Tokenized therapeutic engagement platform spanning 27 browser-based games across
 ### 🔒 EncryptHealth
 Privacy-first health data platform with DID-based consent workflows, FHIR/HL7 interoperability, and patient-controlled data architecture. HIPAA-aligned from the contract layer up.
 
-### ⛓️ ClaimChain
+### ⛓️ SovereignLedger
 Standalone blockchain governance layer for insurance claims lifecycle management. Full PostgreSQL schema spanning eligibility, authorization, audit logs, and compliance. SMS approval-gated automation with approve/deny/defer logic. Deployable independently of any single platform.
 
 **Deployed on Sepolia:** [`0xf32979200768e8726d5EC5E5AB0CA7407d64A94e`](https://eth-sepolia.blockscout.com/address/0xf32979200768e8726d5EC5E5AB0CA7407d64A94e)
@@ -106,7 +106,7 @@ Wearable consent and neuro-state tracking prototype with on-chain permission tog
 | HypnoNeuroToken | [`0x411426f8E735F7940B20491609F08817A805b198`](https://eth-sepolia.blockscout.com/address/0x411426f8E735F7940B20491609F08817A805b198) |
 | EncryptHealthToken | [`0xbDaeb1d05E02D2751Ad07121510b5f0C436E2CdC`](https://eth-sepolia.blockscout.com/address/0xbDaeb1d05E02D2751Ad07121510b5f0C436E2CdC) |
 | MindMasteryNFT (L1–L3) | [`0xCb9EcB00574DB29976c7C54045d443666D5C7771`](https://eth-sepolia.blockscout.com/address/0xCb9EcB00574DB29976c7C54045d443666D5C7771) |
-| ClaimChain | [`0xf32979200768e8726d5EC5E5AB0CA7407d64A94e`](https://eth-sepolia.blockscout.com/address/0xf32979200768e8726d5EC5E5AB0CA7407d64A94e) |
+| SovereignLedger | [`0xf32979200768e8726d5EC5E5AB0CA7407d64A94e`](https://eth-sepolia.blockscout.com/address/0xf32979200768e8726d5EC5E5AB0CA7407d64A94e) |
 | AlchemistForge | [`0xE092336F8f5082e57CcBb341A110C20ad186A324`](https://eth-sepolia.blockscout.com/address/0xE092336F8f5082e57CcBb341A110C20ad186A324) |
 
 ---
@@ -126,12 +126,12 @@ Eight active contributions to production blockchain, healthcare, and identity st
 | Repo | PR | Title | Status | FSL Connection |
 |---|---|---|---|---|
 | [ethereum/EIPs](https://github.com/ethereum/EIPs/pull/11409) | [#11409](https://github.com/ethereum/EIPs/pull/11409) | Update README: Fix formatting in EIP document structure | 🟡 Open | HNT token standard — FSLToken and HypnoNeuroNFT follow EIP-20/721 standards governed by this repo |
-| [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6414) | [#6414](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6414) | Clarify ReentrancyGuard documentation | 🟡 Open | FSLToken, EncryptHealthVault, and ClaimChainDAO inherit from OpenZeppelin's audited base contracts |
+| [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6414) | [#6414](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6414) | Clarify ReentrancyGuard documentation | 🟡 Open | FSLToken, EncryptHealthVault, and SovereignLedgerDAO inherit from OpenZeppelin's audited base contracts |
 | [Uniswap/v3-core](https://github.com/Uniswap/v3-core/pull/1077) | [#1077](https://github.com/Uniswap/v3-core/pull/1077) | Add invariant test note to pool math docs | 🟡 Open | Reference architecture for future HNT/ETH liquidity pool design |
 | [openmrs/openmrs-module-fhir2](https://github.com/openmrs/openmrs-module-fhir2/pull/594) | [#594](https://github.com/openmrs/openmrs-module-fhir2/pull/594) | Add FHIR2 quickstart pointer for contributors | ✅ Closed | EncryptHealth FHIR R4 export (`GET /api/export/:wallet`) — same module stack |
 | [bigchaindb/bigchaindb](https://github.com/bigchaindb/bigchaindb/pull/2763) | [#2763](https://github.com/bigchaindb/bigchaindb/pull/2763) | Add Python quickstart documentation | 🟡 Open | Immutable data patterns — informed NeuroBalance biosensor anchoring architecture |
 | [balancer/balancer-v2-monorepo](https://github.com/balancer/balancer-v2-monorepo/pull/2648) | [#2648](https://github.com/balancer/balancer-v2-monorepo/pull/2648) | Add pool math reference documentation | 🟡 Open | HNT token liquidity pool reference; AlchemistForge bridging mechanism |
-| [decentralized-identity/presentation-exchange](https://github.com/decentralized-identity/presentation-exchange/pull/486) | [#486](https://github.com/decentralized-identity/presentation-exchange/pull/486) | Add OIDC4VP consent example | 🟡 Open | ClaimChain decentralized identity and OIDC4VP provider credentialing flows |
+| [decentralized-identity/presentation-exchange](https://github.com/decentralized-identity/presentation-exchange/pull/486) | [#486](https://github.com/decentralized-identity/presentation-exchange/pull/486) | Add OIDC4VP consent example | 🟡 Open | SovereignLedger decentralized identity and OIDC4VP provider credentialing flows |
 | [hyperledger/fabric](https://github.com/hyperledger/fabric/pull/5419) | [#5419](https://github.com/hyperledger/fabric/pull/5419) | Add build and runtime environment notes | 🟡 Open | Enterprise permissioned ledger patterns for FSL provider credentialing and audit trail architecture |
 
 **Pattern:** All eight contributions target documentation, onboarding, and interoperability standards — reflecting FSL's architecture philosophy: clarity, composability, and compliance by design.
