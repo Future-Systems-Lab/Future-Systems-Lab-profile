@@ -20,7 +20,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![FHIR](https://img.shields.io/badge/FHIR%2FHL7-E84393?style=for-the-badge&logoColor=white)
 ![HIPAA](https://img.shields.io/badge/HIPAA--Aligned-0D1F35?style=for-the-badge&logoColor=white)
-![MetaMask](https://img.shields.io/badge/MetaMask-E2761B?style=for-the-badge&logo=metamask&logoColor=white)
+![Brave Wallet](https://img.shields.io/badge/Brave%20Wallet-FB542B?style=for-the-badge&logo=brave&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
