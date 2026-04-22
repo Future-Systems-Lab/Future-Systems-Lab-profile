@@ -156,6 +156,7 @@ Eight active contributions to production blockchain, healthcare, and identity st
 
 ## 📰 Published Research & Thought Leadership
 
+- [Why Your Medical Record Belongs in Your Digital Wallet](https://www.americaoutloud.news/why-your-medical-record-belongs-in-your-digital-wallet/) — *America Out Loud, April 2026*
 - [Reprogram Your Limiting Beliefs on the Blockchain While Learning Web3](https://www.americaoutloud.news/reprogram-your-limiting-beliefs-on-the-blockchain-while-learning-web3/) — *America Out Loud, April 2026*
 - [Ending the Insurance Verification Nightmare](https://www.americaoutloud.news/author/meg-montanez-davenport/) — *America Out Loud, March 2026*
 - [When Records Vanish! Lessons from Epstein's Files](https://www.americaoutloud.news/author/meg-montanez-davenport/) — *America Out Loud, March 2026*
