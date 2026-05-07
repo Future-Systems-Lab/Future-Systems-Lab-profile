@@ -18,8 +18,8 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![FHIR](https://img.shields.io/badge/FHIR%2FHL7-E84393?style=for-the-badge&logoColor=white)
-![HIPAA](https://img.shields.io/badge/HIPAA--Aligned-0D1F35?style=for-the-badge&logoColor=white)
+![EIP-191](https://img.shields.io/badge/EIP--191-E84393?style=for-the-badge&logoColor=white)
+![Sovereignty](https://img.shields.io/badge/Sovereignty_by_Design-0D1F35?style=for-the-badge&logoColor=white)
 ![Brave Wallet](https://img.shields.io/badge/Brave%20Wallet-FB542B?style=for-the-badge&logo=brave&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
@@ -33,7 +33,7 @@
 
 ---
 
-I design and deploy compliance-aware decentralized systems — using regulated mental healthcare as a proving ground for architectures that scale across complex domains. As founder of Future Systems Lab, I move from concept to production: on-chain deployments, FHIR-aligned consent flows, and governance-aware infrastructure built to HIPAA standards from day one.
+I design and deploy decentralized infrastructure for sovereign data governance — using regulated behavioral health as a deliberate proving ground for architectures that scale across complex domains. As a long-term healthcare practitioner with experience operating HIPAA-compliant practice, I built within compliance frameworks before architecting beyond them. As founder of Future Systems Lab, I move from concept to production: on-chain deployments, EIP-191 wallet-gated consent architecture, and infrastructure designed to operate outside HIPAA scope by holding no PHI — a stronger architectural position than compliance, because the regulation doesn't apply when the system never holds the protected data.
 
 My background spans naturopathic psychology and blockchain product architecture — I think in systems, across disciplines, at the intersection of governance and user experience.
 
@@ -80,7 +80,7 @@ All systems are engineered to operate independently or as an integrated producti
 Tokenized therapeutic engagement platform spanning 27 browser-based games across three progressive levels. Governed by neurotransmitter protocol — GABA, Serotonin, endocannabinoid. NFT incentive model creates verifiable on-chain therapeutic progression.
 
 ### 🔒 EncryptHealth
-Privacy-first health data platform with DID-based consent workflows, FHIR/HL7 interoperability, and patient-controlled data architecture. HIPAA-aligned from the contract layer up.
+Wallet-gated consent architecture with participant data sovereignty. Designed to operate outside HIPAA scope by holding no PHI — the regulation doesn't apply when the system never holds the protected data.
 
 ### ⛓️ SovereignLedger
 Standalone blockchain governance layer for insurance claims lifecycle management. Full PostgreSQL schema spanning eligibility, authorization, audit logs, and compliance. SMS approval-gated automation with approve/deny/defer logic. Deployable independently of any single platform.
@@ -142,7 +142,7 @@ Eight active contributions to production blockchain, healthcare, and identity st
 
 **Blockchain / Web3** — Solidity, EVM, DID/VCs, OIDC4VP, smart contract auditing, Hyperledger Aries
 
-**Healthcare Standards** — HL7/FHIR, HIPAA-aligned architecture, OpenMRS, clinical data governance
+**Regulation-Aware Architecture** — systems designed to operate outside HIPAA scope by holding no PHI; OpenMRS (OSS contribution context), clinical data governance
 
 **Security & Governance** — CNCF TAG-Security, policy-as-code, SSI/DID consent flows, CISA-aligned audit frameworks
 
