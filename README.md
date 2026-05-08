@@ -37,7 +37,7 @@ I design and deploy decentralized infrastructure for sovereign data governance �
 
 My background spans naturopathic psychology and blockchain product architecture — I think in systems, across disciplines, at the intersection of governance and user experience.
 
-**Five Ethereum smart contracts deployed and verified on Sepolia. Every FSL system is in production.**
+**Nine Ethereum smart contracts deployed and verified on Sepolia. Every FSL system is in production.**
 
 ---
 
@@ -77,13 +77,13 @@ Blockchain is treated as infrastructure for governance and verification, not ide
 All systems are engineered to operate independently or as an integrated production stack.
 
 ### 🧠 HypnoNeuro
-Tokenized therapeutic engagement platform spanning 27 browser-based games across three progressive levels. Governed by neurotransmitter protocol — GABA, Serotonin, endocannabinoid. NFT incentive model creates verifiable on-chain therapeutic progression.
+Tokenized therapeutic engagement platform spanning 45 browser-based games across three progressive levels. Governed by neurotransmitter protocol — GABA, Serotonin, endocannabinoid. NFT incentive model creates verifiable on-chain therapeutic progression.
 
 ### 🔒 EncryptHealth
 Wallet-gated consent architecture with participant data sovereignty. Designed to operate outside HIPAA scope by holding no PHI — the regulation doesn't apply when the system never holds the protected data.
 
 ### ⛓️ SovereignLedger
-Standalone blockchain governance layer for insurance claims lifecycle management. Full PostgreSQL schema spanning eligibility, authorization, audit logs, and compliance. SMS approval-gated automation with approve/deny/defer logic. Deployable independently of any single platform.
+Standalone blockchain governance layer for session attestation and participant-controlled record verification. Full PostgreSQL schema spanning participants, sovereign guides, sessions, attestations, documents, audit logs, and consent grants. SMS approval-gated automation with approve/deny/defer logic. Deployable independently of any single platform.
 
 **Deployed on Sepolia:** [`0xf32979200768e8726d5EC5E5AB0CA7407d64A94e`](https://eth-sepolia.blockscout.com/address/0xf32979200768e8726d5EC5E5AB0CA7407d64A94e)
 
@@ -103,11 +103,15 @@ Wearable consent and neuro-state tracking prototype with on-chain permission tog
 
 | Contract | Address |
 |---|---|
-| HypnoNeuroToken | [`0x411426f8E735F7940B20491609F08817A805b198`](https://eth-sepolia.blockscout.com/address/0x411426f8E735F7940B20491609F08817A805b198) |
-| EncryptHealthToken | [`0xbDaeb1d05E02D2751Ad07121510b5f0C436E2CdC`](https://eth-sepolia.blockscout.com/address/0xbDaeb1d05E02D2751Ad07121510b5f0C436E2CdC) |
+| HypnoNeuroToken (HNT v2) | [`0x1ae1e10929f008d1f9883ce574a318abd86084e2`](https://eth-sepolia.blockscout.com/address/0x1ae1e10929f008d1f9883ce574a318abd86084e2) |
+| EHTv2 (144K capped) | [`0x93583a7A24e50075c79b06db0be8Cf4D45B0bd88`](https://eth-sepolia.blockscout.com/address/0x93583a7A24e50075c79b06db0be8Cf4D45B0bd88) |
 | MindMasteryNFT (L1–L3) | [`0xCb9EcB00574DB29976c7C54045d443666D5C7771`](https://eth-sepolia.blockscout.com/address/0xCb9EcB00574DB29976c7C54045d443666D5C7771) |
-| SovereignLedger | [`0xf32979200768e8726d5EC5E5AB0CA7407d64A94e`](https://eth-sepolia.blockscout.com/address/0xf32979200768e8726d5EC5E5AB0CA7407d64A94e) |
+| SovereignLedger v2 | [`0x4afA577fA914068451e0Aa97b61F23960f02aCc4`](https://eth-sepolia.blockscout.com/address/0x4afA577fA914068451e0Aa97b61F23960f02aCc4) |
 | AlchemistForge | [`0xE092336F8f5082e57CcBb341A110C20ad186A324`](https://eth-sepolia.blockscout.com/address/0xE092336F8f5082e57CcBb341A110C20ad186A324) |
+| BenevolenceFund v2 | [`0x96E8006a1fBB693B55fFf6254B8BF19EC605251B`](https://eth-sepolia.blockscout.com/address/0x96E8006a1fBB693B55fFf6254B8BF19EC605251B) |
+| SovereignAchievement | [`0xC3F11d2F1F12bB96b9DCF7e8f85e9704D2869B8D`](https://eth-sepolia.blockscout.com/address/0xC3F11d2F1F12bB96b9DCF7e8f85e9704D2869B8D) |
+| NeuroBalanceConsent | [`0x21571805e57f792b66604b140a45D8C1b2E196b8`](https://eth-sepolia.blockscout.com/address/0x21571805e57f792b66604b140a45D8C1b2E196b8) |
+| SovereignSession | [`0xbeb13A360C6F0C77Ea3af3650Ab9762a1B9965A1`](https://eth-sepolia.blockscout.com/address/0xbeb13A360C6F0C77Ea3af3650Ab9762a1B9965A1) |
 
 ---
 
@@ -131,10 +135,10 @@ Eight active contributions to production blockchain, healthcare, and identity st
 | [openmrs/openmrs-module-fhir2](https://github.com/openmrs/openmrs-module-fhir2/pull/594) | [#594](https://github.com/openmrs/openmrs-module-fhir2/pull/594) | Add FHIR2 quickstart pointer for contributors | ✅ Closed | EncryptHealth FHIR R4 export (`GET /api/export/:wallet`) — same module stack |
 | [bigchaindb/bigchaindb](https://github.com/bigchaindb/bigchaindb/pull/2763) | [#2763](https://github.com/bigchaindb/bigchaindb/pull/2763) | Add Python quickstart documentation | 🟡 Open | Immutable data patterns — informed NeuroBalance biosensor anchoring architecture |
 | [balancer/balancer-v2-monorepo](https://github.com/balancer/balancer-v2-monorepo/pull/2648) | [#2648](https://github.com/balancer/balancer-v2-monorepo/pull/2648) | Add pool math reference documentation | 🟡 Open | HNT token liquidity pool reference; AlchemistForge bridging mechanism |
-| [decentralized-identity/presentation-exchange](https://github.com/decentralized-identity/presentation-exchange/pull/486) | [#486](https://github.com/decentralized-identity/presentation-exchange/pull/486) | Add OIDC4VP consent example | 🟡 Open | SovereignLedger decentralized identity and OIDC4VP provider credentialing flows |
-| [hyperledger/fabric](https://github.com/hyperledger/fabric/pull/5419) | [#5419](https://github.com/hyperledger/fabric/pull/5419) | Add build and runtime environment notes | 🟡 Open | Enterprise permissioned ledger patterns for FSL provider credentialing and audit trail architecture |
+| [decentralized-identity/presentation-exchange](https://github.com/decentralized-identity/presentation-exchange/pull/486) | [#486](https://github.com/decentralized-identity/presentation-exchange/pull/486) | Add OIDC4VP consent example | 🟡 Open | SovereignLedger decentralized identity and OIDC4VP Sovereign Guide credentialing flows |
+| [hyperledger/fabric](https://github.com/hyperledger/fabric/pull/5419) | [#5419](https://github.com/hyperledger/fabric/pull/5419) | Add build and runtime environment notes | 🟡 Open | Enterprise permissioned ledger patterns for FSL Sovereign Guide credentialing and audit trail architecture |
 
-**Pattern:** All eight contributions target documentation, onboarding, and interoperability standards — reflecting FSL's architecture philosophy: clarity, composability, and compliance by design.
+**Pattern:** All eight contributions target documentation, onboarding, and interoperability standards — reflecting FSL's architecture philosophy: clarity, composability, and sovereignty by design.
 
 ---
 
@@ -148,7 +152,7 @@ Eight active contributions to production blockchain, healthcare, and identity st
 
 **Data & Analytics** — PostgreSQL 17, Python, Tableau, RStudio, Streamlit
 
-**Product & Systems** — Full-stack Web3 product strategy, decentralized identity, behavioral UX, systems engineering lifecycle
+**Product & Systems** — Full-stack Web3 product strategy, decentralized identity, sovereign data governance, systems engineering lifecycle
 
 **Internal Tooling** — ClawdBot: proprietary AI-assisted development automation (internal)
 
