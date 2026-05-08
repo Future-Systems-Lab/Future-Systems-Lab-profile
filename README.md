@@ -144,9 +144,9 @@ Eight active contributions to production blockchain, healthcare, and identity st
 
 ## 🛠️ Technical Stack
 
-**Blockchain / Web3** — Solidity, EVM, DID/VCs, OIDC4VP, smart contract auditing, Hyperledger Aries
+**Blockchain / Web3** — Solidity, EVM, EIP-191, EIP-1193, ERC-20/721/1155, Brave Wallet, WalletConnect, XRPL, WebRTC, DID/VCs, OIDC4VP, IPFS, ZK Proofs
 
-**Regulation-Aware Architecture** — systems designed to operate outside HIPAA scope by holding no PHI; OpenMRS (OSS contribution context), clinical data governance
+**Decentralized Health Architecture** — Sovereign data governance, wallet-native consent, zero-PHI architecture, on-chain session attestation, cross-domain infrastructure, orthomolecular medicine, naturopathic psychology
 
 **Security & Governance** — CNCF TAG-Security, policy-as-code, SSI/DID consent flows, CISA-aligned audit frameworks
 
