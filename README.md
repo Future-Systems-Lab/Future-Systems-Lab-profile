@@ -76,16 +76,16 @@ Blockchain is treated as infrastructure for governance and verification, not ide
 
 All systems are engineered to operate independently or as an integrated production stack.
 
-### 🧠 HypnoNeuro
+### 🧠 HypnoNeuro — [hypnoneuro.io](https://hypnoneuro.io)
 Tokenized therapeutic engagement platform spanning 45 browser-based games across three progressive levels. Governed by neurotransmitter protocol — GABA, Serotonin, endocannabinoid. NFT incentive model creates verifiable on-chain therapeutic progression.
 
-### 🔒 EncryptHealth
+### 🔒 EncryptHealth — [encrypthealth.io](https://encrypthealth.io)
 Wallet-gated consent architecture with participant data sovereignty. Designed to operate outside HIPAA scope by holding no PHI — the regulation doesn't apply when the system never holds the protected data.
 
-### ⛓️ SovereignLedger
+### ⛓️ SovereignLedger — [sovereignledger.io](https://sovereignledger.io)
 Standalone blockchain governance layer for session attestation and participant-controlled record verification. Full PostgreSQL schema spanning participants, sovereign guides, sessions, attestations, documents, audit logs, and consent grants. SMS approval-gated automation with approve/deny/defer logic. Deployable independently of any single platform.
 
-**Deployed on Sepolia:** [`0xf32979200768e8726d5EC5E5AB0CA7407d64A94e`](https://eth-sepolia.blockscout.com/address/0xf32979200768e8726d5EC5E5AB0CA7407d64A94e)
+**Deployed on Sepolia:** [`0x4afA577fA914068451e0Aa97b61F23960f02aCc4`](https://eth-sepolia.blockscout.com/address/0x4afA577fA914068451e0Aa97b61F23960f02aCc4)
 
 ### 🔬 AlchemistForge
 Behavioral smart contract combining Jungian shadow psychology with blockchain permanence. Entry 01 of the `mental-health-on-chain` public smart contract awareness series. Case Study Participant #1 — Transmuted and Celebrated events confirmed on-chain.
@@ -95,7 +95,7 @@ Behavioral smart contract combining Jungian shadow psychology with blockchain pe
 ### ⌚ NeuroBalance Watch
 Wearable consent and neuro-state tracking prototype with on-chain permission toggles and HRV-linked session triggers. Demonstrates hardware-adjacent consent architecture in a behavioral health context.
 
-[**→ View Repo**](https://github.com/Future-Systems-Lab/NeuroBalance-Watch)
+*Source available to reviewers on request — future.systems.lab@proton.me*
 
 ---
 
