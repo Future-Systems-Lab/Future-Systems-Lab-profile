@@ -167,6 +167,12 @@ Eight active contributions to production blockchain, healthcare, and identity st
 
 ---
 
+## 📜 Intellectual Property
+
+- **Trademark:** USPTO Serial No. 99533250 — "Future Systems Lab," Class 42 (Software/Tech Platform) — Publishing May 19, 2026
+- **Trademark:** USPTO Serial No. 99821948 — "Future Systems Lab," Class 35 (Online Marketplace/Directory) — Filed May 13, 2026
+- **Patent:** U.S. Provisional Application No. 64/063,037 — Filed May 11, 2026 — Assigned to Future Systems Lab LLC (Assignment ID 1803665)
+
 ## 🔒 Access & Repository Policy
 
 Detailed architecture diagrams, schema documentation, and system internals are maintained in private, invite-only repositories to protect security design, governance logic, and pre-commercial IP.
