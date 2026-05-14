@@ -181,11 +181,52 @@ Access may be granted to recruiters, academic reviewers, and partners upon reque
 
 ---
 
-## 🗄️ Archived Case Studies
+## 🗄️ Legacy Archive — Prior Operational Experience
 
-**CBD Continuum Retail** — Historical case study of an operating brick-and-mortar wellness business demonstrating end-to-end operations, GMP documentation, COA transparency, and provenance workflows. *Status: Closed / Archived*
+These retired ventures demonstrate the real-world operational, product, and clinical experience that directly informed FSL's architecture. They are preserved as evidence of domain expertise, not active projects.
 
-**Anonymous Therapy Prototype** — Early exploration of privacy-first wellness services, Web3 payment concepts, and trauma-informed UX design. *Status: Retired / Archived*
+---
+
+### SunCodes Holistic Health (2018–2024)
+
+**Founder & Operator** — Full-service naturopathic wellness practice and CBD product company.
+
+**Physical Space Design**
+- Designed and built out a therapeutic wellness center from raw commercial space
+- Environment intentionally designed for trauma-informed care — lighting, acoustics, flow, and safety considerations based on lived experience and clinical practice
+- Served as the operating clinical environment for naturopathic psychology sessions
+
+**Seed-to-Shelf Product Line**
+- Developed a neurotransmitter-targeted CBD wellness line from formulation through retail sale
+- Full product lifecycle management: hemp sourcing, extraction partnerships, formulation for GABA/serotonin/dopamine targeting, third-party COA testing, GMP-compliant documentation, label compliance, and retail packaging
+- 5 product SKUs across tinctures, topicals, and capsule formats
+- COA transparency as a core brand value — every batch independently tested and published
+
+**Operations**
+- Managed inventory, point-of-sale, compliance documentation, and customer education
+- Implemented crypto payment acceptance (early adopter, pre-FSL) — first step toward understanding decentralized payment infrastructure for wellness
+- Transitioned to online-only during COVID-19 pandemic (2020), which catalyzed the shift to decentralized digital infrastructure
+
+**Why This Matters for FSL**
+- The COA transparency workflow directly informed FSL's on-chain provenance architecture
+- The neurotransmitter-targeting product framework became HypnoNeuro's L1/L2/L3 game design basis
+- The experience of designing physical healing space informed the UX sovereignty principles in EncryptHealth
+- The seed-to-shelf supply chain experience informed the BenevolenceFund distribution mechanics
+
+*Status: Closed 2024. Assets archived. Lessons integrated into FSL.*
+
+---
+
+### Naturopathic Psychology & Hypnosis Center (2018–Present)
+
+**Independent Clinical Practice** — Dr. Meg Montañez-Davenport, D.N.Psy. · NPI 1497696264
+
+- Founded and operated independent naturopathic psychology practice applying amino acid therapy protocols (Linus Pauling, Abram Hoffer, William Walsh, Albert Mensah), integrative behavioral health, and sovereignty-first participant engagement
+- Orthomolecular approach to neurotransmitter rebalancing — the clinical framework that became FSL's L2 Orthomolecular Portal
+- Jungian shadow integration work with participants — the therapeutic modality that became AlchemistForge's on-chain shadow recording primitive
+- Practice experience directly informed the "Sovereign Guide" model: credentialed wellness facilitator operating independently, not as an employee of a platform
+
+*Status: Active. Informs FSL's clinical domain expertise.*
 
 ---
 
