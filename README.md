@@ -77,7 +77,7 @@ Blockchain is treated as infrastructure for governance and verification, not ide
 All systems are engineered to operate independently or as an integrated production stack.
 
 ### 🧠 HypnoNeuro — [hypnoneuro.io](https://hypnoneuro.io)
-Tokenized therapeutic engagement platform spanning 45 browser-based games across three progressive levels. Governed by neurotransmitter protocol — GABA, Serotonin, endocannabinoid. NFT incentive model creates verifiable on-chain therapeutic progression.
+Wallet-gated sovereign wellness platform with 3 flagship therapeutic portals (L1 Hypnosis, L2 Orthomolecular, L3 Inner Child) and a wired L1/L2/L3 framework for full build by 3D game designers. Governed by neurotransmitter protocol — GABA, Serotonin, endocannabinoid. NFT incentive model creates verifiable on-chain therapeutic progression.
 
 ### 🔒 EncryptHealth — [encrypthealth.io](https://encrypthealth.io)
 Wallet-gated consent architecture with participant data sovereignty. Designed to operate outside HIPAA scope by holding no PHI — the regulation doesn't apply when the system never holds the protected data.
@@ -219,7 +219,7 @@ These retired ventures demonstrate the real-world operational, product, and clin
 
 ### Naturopathic Psychology & Hypnosis Center (2018–Present)
 
-**Independent Clinical Practice** — Dr. Meg Montañez-Davenport, D.N.Psy. · NPI 1497696264
+**Independent Clinical Practice** — Dr. Meg Montañez Davenport, D.N.Psy. · NPI 1497696264
 
 - Founded and operated independent naturopathic psychology practice applying amino acid therapy protocols (Linus Pauling, Abram Hoffer, William Walsh, Albert Mensah), integrative behavioral health, and sovereignty-first participant engagement
 - Orthomolecular approach to neurotransmitter rebalancing — the clinical framework that became FSL's L2 Orthomolecular Portal
