@@ -76,14 +76,14 @@ Blockchain is treated as infrastructure for governance and verification, not ide
 
 All systems are engineered to operate independently or as an integrated production stack.
 
-### 🧠 HypnoNeuro — [hypnoneuro.io](https://hypnoneuro.io)
+### 🧠 HypnoNeuro
 Wallet-gated sovereign wellness platform with 3 flagship therapeutic portals (L1 Hypnosis, L2 Orthomolecular, L3 Inner Child) and a wired L1/L2/L3 framework for full build by 3D game designers. Governed by neurotransmitter protocol — GABA, Serotonin, endocannabinoid. NFT incentive model creates verifiable on-chain therapeutic progression.
 
-### 🔒 EncryptHealth — [encrypthealth.io](https://encrypthealth.io)
+### 🔒 EncryptHealth
 Wallet-gated consent architecture with participant data sovereignty. Designed to operate outside HIPAA scope by holding no PHI — the regulation doesn't apply when the system never holds the protected data.
 
-### ⛓️ SovereignLedger — [sovereignledger.io](https://sovereignledger.io)
-Standalone blockchain governance layer for session attestation and participant-controlled record verification. Full PostgreSQL schema spanning participants, sovereign guides, sessions, attestations, documents, audit logs, and consent grants. SMS approval-gated automation with approve/deny/defer logic. Deployable independently of any single platform.
+### ⛓️ SovereignLedger
+Standalone blockchain governance layer for session attestation and participant-controlled record verification. Full PostgreSQL schema spanning participants, sovereign guides, sessions, attestations, documents, audit logs, and consent grants. Deployable independently of any single platform.
 
 **Deployed on Sepolia:** [`0x4afA577fA914068451e0Aa97b61F23960f02aCc4`](https://eth-sepolia.blockscout.com/address/0x4afA577fA914068451e0Aa97b61F23960f02aCc4)
 
@@ -105,11 +105,11 @@ Wearable consent and neuro-state tracking prototype with on-chain permission tog
 |---|---|
 | HypnoNeuroToken (HNT v2) | [`0x1ae1e10929f008d1f9883ce574a318abd86084e2`](https://eth-sepolia.blockscout.com/address/0x1ae1e10929f008d1f9883ce574a318abd86084e2) |
 | EHTv2 (144K capped) | [`0x93583a7A24e50075c79b06db0be8Cf4D45B0bd88`](https://eth-sepolia.blockscout.com/address/0x93583a7A24e50075c79b06db0be8Cf4D45B0bd88) |
-| MindMasteryNFT (L1–L3) | [`0xCb9EcB00574DB29976c7C54045d443666D5C7771`](https://eth-sepolia.blockscout.com/address/0xCb9EcB00574DB29976c7C54045d443666D5C7771) |
+| HypnoNeuroNFT (HNNTKRN) | [`0xCb9EcB00574DB29976c7C54045d443666D5C7771`](https://eth-sepolia.blockscout.com/address/0xCb9EcB00574DB29976c7C54045d443666D5C7771) |
 | SovereignLedger v2 | [`0x4afA577fA914068451e0Aa97b61F23960f02aCc4`](https://eth-sepolia.blockscout.com/address/0x4afA577fA914068451e0Aa97b61F23960f02aCc4) |
 | AlchemistForge | [`0xE092336F8f5082e57CcBb341A110C20ad186A324`](https://eth-sepolia.blockscout.com/address/0xE092336F8f5082e57CcBb341A110C20ad186A324) |
 | BenevolenceFund v2 | [`0x96E8006a1fBB693B55fFf6254B8BF19EC605251B`](https://eth-sepolia.blockscout.com/address/0x96E8006a1fBB693B55fFf6254B8BF19EC605251B) |
-| SovereignAchievement | [`0xC3F11d2F1F12bB96b9DCF7e8f85e9704D2869B8D`](https://eth-sepolia.blockscout.com/address/0xC3F11d2F1F12bB96b9DCF7e8f85e9704D2869B8D) |
+| FSL Sovereign Achievement | [`0xC3F11d2F1F12bB96b9DCF7e8f85e9704D2869B8D`](https://eth-sepolia.blockscout.com/address/0xC3F11d2F1F12bB96b9DCF7e8f85e9704D2869B8D) |
 | NeuroBalanceConsent | [`0x21571805e57f792b66604b140a45D8C1b2E196b8`](https://eth-sepolia.blockscout.com/address/0x21571805e57f792b66604b140a45D8C1b2E196b8) |
 | SovereignSession | [`0xbeb13A360C6F0C77Ea3af3650Ab9762a1B9965A1`](https://eth-sepolia.blockscout.com/address/0xbeb13A360C6F0C77Ea3af3650Ab9762a1B9965A1) |
 
@@ -123,22 +123,13 @@ Wearable consent and neuro-state tracking prototype with on-chain permission tog
 
 **[NeuroBalance Watch](https://github.com/Future-Systems-Lab/NeuroBalance-Watch)** — Wearable neuro-state and consent prototype with on-chain permission architecture.
 
-### 🔀 Open-Source Contribution Portfolio
+### 🔀 Open-Source Contributions
 
-Eight active contributions to production blockchain, healthcare, and identity standards infrastructure — each directly connected to FSL's technical architecture.
-
-| Repo | PR | Title | Status | FSL Connection |
-|---|---|---|---|---|
-| [ethereum/EIPs](https://github.com/ethereum/EIPs/pull/11409) | [#11409](https://github.com/ethereum/EIPs/pull/11409) | Update README: Fix formatting in EIP document structure | 🟡 Open | HNT token standard — FSLToken and HypnoNeuroNFT follow EIP-20/721 standards governed by this repo |
-| [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6414) | [#6414](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6414) | Clarify ReentrancyGuard documentation | 🟡 Open | FSLToken, EncryptHealthVault, and SovereignLedgerDAO inherit from OpenZeppelin's audited base contracts |
-| [Uniswap/v3-core](https://github.com/Uniswap/v3-core/pull/1077) | [#1077](https://github.com/Uniswap/v3-core/pull/1077) | Add invariant test note to pool math docs | 🟡 Open | Reference architecture for future HNT/ETH liquidity pool design |
-| [openmrs/openmrs-module-fhir2](https://github.com/openmrs/openmrs-module-fhir2/pull/594) | [#594](https://github.com/openmrs/openmrs-module-fhir2/pull/594) | Add FHIR2 quickstart pointer for contributors | ✅ Closed | EncryptHealth FHIR R4 export (`GET /api/export/:wallet`) — same module stack |
-| [bigchaindb/bigchaindb](https://github.com/bigchaindb/bigchaindb/pull/2763) | [#2763](https://github.com/bigchaindb/bigchaindb/pull/2763) | Add Python quickstart documentation | 🟡 Open | Immutable data patterns — informed NeuroBalance biosensor anchoring architecture |
-| [balancer/balancer-v2-monorepo](https://github.com/balancer/balancer-v2-monorepo/pull/2648) | [#2648](https://github.com/balancer/balancer-v2-monorepo/pull/2648) | Add pool math reference documentation | 🟡 Open | HNT token liquidity pool reference; AlchemistForge bridging mechanism |
-| [decentralized-identity/presentation-exchange](https://github.com/decentralized-identity/presentation-exchange/pull/486) | [#486](https://github.com/decentralized-identity/presentation-exchange/pull/486) | Add OIDC4VP consent example | 🟡 Open | SovereignLedger decentralized identity and OIDC4VP Sovereign Guide credentialing flows |
-| [hyperledger/fabric](https://github.com/hyperledger/fabric/pull/5419) | [#5419](https://github.com/hyperledger/fabric/pull/5419) | Add build and runtime environment notes | 🟡 Open | Enterprise permissioned ledger patterns for FSL Sovereign Guide credentialing and audit trail architecture |
-
-**Pattern:** All eight contributions target documentation, onboarding, and interoperability standards — reflecting FSL's architecture philosophy: clarity, composability, and sovereignty by design.
+| Repo | PR | Description | Status |
+|---|---|---|---|
+| [bcgov/aries-vcr](https://github.com/bcgov/aries-vcr/pull/811) | [#811](https://github.com/bcgov/aries-vcr/pull/811) | Healthcare verifiable-credential schema examples + validation | ✅ Merged |
+| [openmrs/openmrs-module-fhir2](https://github.com/openmrs/openmrs-module-fhir2/pull/577) | [#577](https://github.com/openmrs/openmrs-module-fhir2/pull/577) | FHIR CodeableConcept normalization utility + tests (Java) | 🟡 Open |
+| [openmrs/openmrs-contrib-fhir2-ig](https://github.com/openmrs/openmrs-contrib-fhir2-ig/pull/63) | [#63](https://github.com/openmrs/openmrs-contrib-fhir2-ig/pull/63) | macOS build documentation for FHIR2 IG | 🟡 Open |
 
 ---
 
