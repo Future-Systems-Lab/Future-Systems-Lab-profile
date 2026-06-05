@@ -38,6 +38,10 @@ This is the proposed Doctor of Engineering applied project at Arizona State Univ
 
 Margarita Montañez Davenport, D.N.Psy., BCHN, CBHP — 30 years clinical practice. Self-taught Web3, decentralized systems, and systems engineering from no prior software engineering background in 6 months.
 
+Weekly contributing author at [America Out Loud](https://www.americaoutloud.news/author/meg-montanez-davenport/)
+
 Contact: future.systems.lab@proton.me · ORCID: [0009-0001-4536-3070](https://orcid.org/0009-0001-4536-3070)
 
-[View Full CV](https://future-systems-lab.github.io/Future-Systems-Lab-profile/CV_MegMontanezDavenport.html)
+Portfolio: [evidence.futuresystemslab.io](https://evidence.futuresystemslab.io)
+
+[View Full CV](https://evidence.futuresystemslab.io/cv)
