@@ -2,31 +2,43 @@
 
 # Future Systems Lab
 
-**Margarita Montañez Davenport, D.N.Psy., BCHN, CBHP** — Founder & CEO
+**SOVEREIGN by Design**
 
-Decentralized infrastructure for sovereign data governance
+Decentralized infrastructure for sovereign data governance, with behavioral health as the proving ground.
 
----
-
-Future Systems Lab (FSL) is a Wyoming LLC engineering consent-first data architecture using regulated behavioral health as its proving ground. The system operates outside HIPAA scope by architectural design — it never holds protected health information. Built over six months from no prior software engineering background, FSL is live on Ethereum Sepolia with five integrated platforms and nine verified smart contracts.
+**[evidence.futuresystemslab.io](https://evidence.futuresystemslab.io)** — public evidence portfolio documenting deployed contracts, system architecture, and independent verification.
 
 ---
 
-## Engineering footprint
+## What FSL Is
 
-- **Nine smart contracts** deployed and verified on Ethereum Sepolia testnet
-- **17-agent AI council** running on self-hosted infrastructure
-- **U.S. Provisional Patent No. 64/063,037** filed May 2026 — bilateral consent architecture
-- **Two USPTO trademark applications** filed — Class 42 (in publication) + Class 35
-- **Zero PHI by architectural design** — the infrastructure never receives plaintext health data; it operates outside HIPAA scope structurally, not by compliance
+A deployed multi-platform Web3 ecosystem built on wallet-signed consent:
 
-## Doctoral contribution
+- **EncryptHealth** — sovereign guide portal with EIP-191 authentication
+- **HypnoNeuro** — wellness-engagement platform organized around neurotransmitter systems
+- **SovereignLedger** — on-chain governance and session attestation
+- **AlchemistForge** — permissionless behavioral health engagement recording
+- **NeuroBalance** — biosensor integration layer (scaffolded)
 
-The unsolved engineering problem at the center of this work: a **dual multi-sig EIP-191 consent flow** paired with **threshold-derived client-side encryption** — so no single party, including the infrastructure operator, can decrypt alone. The bilateral consent problem this formalizes has no deployed precedent.
+Four platforms deployed, one scaffolded. Nine smart contracts deployed and verified on Ethereum Sepolia testnet.
 
-This is the proposed Doctor of Engineering applied project at Arizona State University.
+## Architecture
 
-## Open-source contributions
+EIP-191 wallet-signed consent unifies authentication, informed consent, session authorization, and data attribution into a single cryptographic signature event. The system holds zero protected health information by architectural design — outside HIPAA regulatory scope structurally, not by compliance claim. Hybrid on-chain/off-chain data model. Client-side encryption is the focus of ongoing Phase 5 research (not yet deployed).
+
+## Research
+
+*EIP-191 Consent Architecture for Sovereign Behavioral Health Data Governance: A Hybrid On-Chain/Off-Chain Implementation* — manuscript prepared for Blockchain in Healthcare Today (BHTY).
+
+Proposed Doctor of Engineering applied project at Arizona State University.
+
+## Intellectual Property
+
+- **U.S. Provisional Patent No. 64/063,037** — filed May 2026, covering the bilateral consent architecture
+- **USPTO Trademark Serial No. 99533250** — "Future Systems Lab," Class 42, filed December 2025
+- **USPTO Trademark Serial No. 99821948** — "Future Systems Lab," Class 35, filed May 2026
+
+## Open-Source Contributions
 
 | Repository | PR | Description | Status |
 |---|---|---|---|
@@ -34,14 +46,12 @@ This is the proposed Doctor of Engineering applied project at Arizona State Univ
 | [openmrs/openmrs-module-fhir2](https://github.com/openmrs/openmrs-module-fhir2/pull/577) | #577 | FHIR CodeableConcept normalization utility + tests (Java) | Open |
 | [openmrs/openmrs-contrib-fhir2-ig](https://github.com/openmrs/openmrs-contrib-fhir2-ig/pull/63) | #63 | macOS build documentation for FHIR2 IG | Open |
 
-## Built by
+## Founder
 
-Margarita Montañez Davenport, D.N.Psy., BCHN, CBHP — 30 years clinical practice. Self-taught Web3, decentralized systems, and systems engineering from no prior software engineering background in 6 months.
+**Margarita Montañez Davenport**, D.N.Psy., BCHN, CBHP
 
 Weekly contributing author at [America Out Loud](https://www.americaoutloud.news/author/meg-montanez-davenport/)
 
-Contact: future.systems.lab@proton.me · ORCID: [0009-0001-4536-3070](https://orcid.org/0009-0001-4536-3070)
-
-Portfolio: [evidence.futuresystemslab.io](https://evidence.futuresystemslab.io)
+future.systems.lab@proton.me · [futuresystemslab.io](https://futuresystemslab.io) · [LinkedIn](https://linkedin.com/in/margarita-montañez-davenport-680652226) · ORCID: [0009-0001-4536-3070](https://orcid.org/0009-0001-4536-3070)
 
 [View Full CV](https://evidence.futuresystemslab.io/cv)
